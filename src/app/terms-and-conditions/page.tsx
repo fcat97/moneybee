@@ -21,12 +21,12 @@ export default function TermsAndConditionsPage() {
                     <div className="space-y-8">
                         <section className="space-y-4">
                             <p>
-                                <strong>Organization:</strong> UqabMedia
+                                <strong>Organization:</strong> yellowbytes.dev
                                 <br />
                                 <strong>Contact Email:</strong> media.uqab@gmail.com
                             </p>
                             <p>
-                                These Terms & Conditions (“Terms”) govern your use of the Moneybee mobile application (“App”), owned and operated by UqabMedia (“we”, “our”, “us”). By accessing or using Moneybee, you agree to be bound by these Terms. If you do not agree, you must discontinue using the App.
+                                These Terms & Conditions (“Terms”) govern your use of the Moneybee mobile application (“App”), owned and operated by yellowbytes.dev (“we”, “our”, “us”). By accessing or using Moneybee, you agree to be bound by these Terms. If you do not agree, you must discontinue using the App.
                             </p>
                         </section>
 
@@ -135,7 +135,7 @@ export default function TermsAndConditionsPage() {
 
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">8. Intellectual Property</h2>
-                            <p>All content, UI/UX, logos, designs, code, and other intellectual property in the App are owned by UqabMedia and are protected under applicable laws.</p>
+                            <p>All content, UI/UX, logos, designs, code, and other intellectual property in the App are owned by yellowbytes.dev and are protected under applicable laws.</p>
                             <p>You receive a non-exclusive, non-transferable, revocable license to use the App.</p>
                         </section>
 
@@ -160,7 +160,7 @@ export default function TermsAndConditionsPage() {
 
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">10. Limitation of Liability</h2>
-                            <p>To the maximum extent permitted under Bangladesh law: UqabMedia, its developers, and partners shall not be liable for any:</p>
+                            <p>To the maximum extent permitted under Bangladesh law: yellowbytes.dev, its developers, and partners shall not be liable for any:</p>
                             <ul className="list-disc list-inside space-y-2 pl-4">
                                 <li>Loss of data</li>
                                 <li>Loss of revenue, profits, or opportunities</li>
@@ -187,7 +187,7 @@ export default function TermsAndConditionsPage() {
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">13. Contact Information</h2>
                             <p>For questions or support, contact us at:</p>
                             <address className="not-italic">
-                                <strong>UqabMedia</strong>
+                                <strong>yellowbytes.dev</strong>
                                 <br />
                                 Email: <a href="mailto:media.uqab@gmail.com" className="text-primary hover:underline">media.uqab@gmail.com</a>
                             </address>

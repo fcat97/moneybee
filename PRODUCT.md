@@ -68,7 +68,7 @@ Preserve /blogs, /privacy-policy, and /terms-and-conditions, or provide correct 
 - Use direct, practical, understandable language tied to real everyday uses.
 - Marketing copy describes Moneybee’s capabilities and benefits in declarative language. Product sections describe the offering rather than instructing visitors or listing prohibitions. Buttons and essential form feedback retain clear action wording.
 - Avoid unsupported superlatives, invented proof, blanket free/unlimited claims, or promises that records can never be lost.
-- UqabMedia is the existing publisher attribution; changes need confirmed ownership information.
+- yellowbytes.dev is the existing publisher attribution; changes need confirmed ownership information.
 
 ## Evidence on Hand
 

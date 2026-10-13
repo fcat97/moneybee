@@ -4,7 +4,7 @@ The blog listing and all four articles use the same article data and shared page
 
 Article images use root-relative public paths and absolute metadata/schema URLs. Article `BlogPosting` data identifies the visible title, description, publication date, image, author, publisher, and canonical page. `BreadcrumbList` matches the visible navigation; the listing's `ItemList` uses the same titles and URLs as its cards. JSON-LD escapes `<` so article content cannot close the script element.
 
-The comparison article's card and metadata use its existing visible publication date, 15 January 2026. Unknown article modification dates are omitted rather than presented as today's date. The sitemap derives article routes from the blog data. The site-wide publisher remains UqabMedia.
+The comparison article's card and metadata use its existing visible publication date, 15 January 2026. Unknown article modification dates are omitted rather than presented as today's date. The sitemap derives article routes from the blog data. The site-wide publisher remains yellowbytes.dev.
 
 `npm run build` followed by `npm run seo:check` verifies the exported pages. The Pages workflow runs the check before uploading the artifact. See [SEO verification and publication](seo-testing-guide.md) for live checks and Search Console submission.
 

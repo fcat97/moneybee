@@ -126,4 +126,4 @@ The project is configured for Firebase App Hosting:
 - **Port**: Dev server runs on port 9002 (not default 3000)
 - **Font**: Uses Inter font loaded from Google Fonts in root layout
 - **Brand Colors**: Primary deep blue (#3F51B5), light blue background (#E8EAF6), yellow accent (#FFEB3B)
-- **Contact Email**: media.uqab@gmail.com (UqabMedia organization)
+- **Contact Email**: media.uqab@gmail.com (yellowbytes.dev organization)

@@ -522,7 +522,7 @@ The current home page includes a hero, eight feature cards, reasons to choose Mo
 - “Real-time alerts” → use the verified budget progress behavior unless notifications are demonstrated.
 - “Everyone sees the same numbers” → describe a shared record with access determined by permissions.
 
-The existing footer names **UqabMedia**, while the domain uses **yellowbytes.dev**. Confirm the public company/publisher attribution before changing it. Do not infer ownership from the domain name.
+The existing footer names **yellowbytes.dev**, while the domain uses **yellowbytes.dev**. Confirm the public company/publisher attribution before changing it. Do not infer ownership from the domain name.
 
 ## 7. Recommended website structure
 

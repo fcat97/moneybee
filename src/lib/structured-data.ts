@@ -6,8 +6,8 @@ export function generateSiteSchema() {
     '@context': 'https://schema.org',
     '@graph': [
       {
-        '@type': 'Organization', '@id': `${home}#publisher`, name: 'UqabMedia',
-        url: home, logo: { '@type': 'ImageObject', url: absoluteUrl('/icon.png') },
+        '@type': 'Organization', '@id': `${home}#publisher`, name: 'yellowbytes.dev',
+        url: 'https://yellowbytes.dev', logo: { '@type': 'ImageObject', url: absoluteUrl('/icon.png') },
       },
       {
         '@type': 'WebSite', '@id': `${home}#website`, name: 'Moneybee', url: home,
@@ -94,7 +94,7 @@ export function generateArticleSchema(
     },
     publisher: {
       '@type': 'Organization',
-      name: 'UqabMedia',
+      name: 'yellowbytes.dev',
       logo: {
         '@type': 'ImageObject',
         url: absoluteUrl('/icon.png'),

@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/seo';
 
 export const metadata = createPageMetadata({
   title: 'Privacy Policy',
-  description: 'The Moneybee privacy policy describes how UqabMedia handles app information, storage, permissions, online services, and privacy requests.',
+  description: 'The Moneybee privacy policy describes how yellowbytes.dev handles app information, storage, permissions, online services, and privacy requests.',
   path: '/privacy-policy',
 });
 
@@ -19,12 +19,12 @@ export default function PrivacyPolicyPage() {
           <div className="space-y-8">
             <section className="space-y-4">
               <p>
-                <strong>Organization:</strong> UqabMedia
+                <strong>Organization:</strong> yellowbytes.dev
                 <br />
                 <strong>Contact Email:</strong> media.uqab@gmail.com
               </p>
               <p>
-                UqabMedia (“we”, “our”, “us”) operates the mobile application Moneybee (“the App”). This Privacy Policy explains how we collect, use, store, and protect your information when you use Moneybee. By using Moneybee, you agree to the practices described in this Policy.
+                yellowbytes.dev (“we”, “our”, “us”) operates the mobile application Moneybee (“the App”). This Privacy Policy explains how we collect, use, store, and protect your information when you use Moneybee. By using Moneybee, you agree to the practices described in this Policy.
               </p>
             </section>
 
@@ -137,7 +137,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-semibold text-primary border-b pb-2">10. Contact Information</h2>
               <p>If you have any questions about this Privacy Policy or your personal data, you can contact us at:</p>
               <address className="not-italic">
-                <strong>UqabMedia</strong>
+                <strong>yellowbytes.dev</strong>
                 <br />
                 Email: <a href="mailto:media.uqab@gmail.com" className="text-primary hover:underline">media.uqab@gmail.com</a>
               </address>

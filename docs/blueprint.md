@@ -3,7 +3,7 @@
 ## Core Features:
 
 - Terms and Conditions Display: Display the terms and conditions in a readable format.
-- Privacy Policy Display: Display the privacy policy in a readable format, including the specific privacy policy provided by the user, with organization name (UqabMedia) and contact email (media.uqab@gmail.com) clearly indicated.
+- Privacy Policy Display: Display the privacy policy in a readable format, including the specific privacy policy provided by the user, with organization name (yellowbytes.dev) and contact email (media.uqab@gmail.com) clearly indicated.
 - Contact Form: A contact form where users can submit inquiries related to privacy or terms, which then sends an email to media.uqab@gmail.com.
 
 ## Style Guidelines:

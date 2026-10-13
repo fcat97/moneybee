@@ -25,7 +25,7 @@ export function Footer() {
           </nav>
         </div>
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} UqabMedia. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} yellowbytes.dev. All rights reserved.</p>
           <p>Made for the way life adds up.</p>
         </div>
       </div>
