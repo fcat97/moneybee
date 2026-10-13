@@ -25,7 +25,7 @@ const articleDetails: Record<string, { keywords: string[]; readingTime: number; 
 
 export const blogPostsEnhanced = blogPosts.map(post => ({
   ...post,
-  author: 'Cartera Team',
+  author: 'Moneybee Team',
   ...articleDetails[post.slug],
 }));
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-06T01:47:33.820124+00:00",
-  "title": "Design System: Cartera",
+  "title": "Design System: Moneybee",
   "extensions": {
     "colorMeta": {
       "paper": {
@@ -401,7 +401,7 @@
       "name": "Google Play action",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Download action in the finished Cartera website.",
+      "description": "Download action in the finished Moneybee website.",
       "html": "<a class=\"ds-button-primary\" href=\"https://play.google.com/store/apps/details?id=media.uqab.cartera\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 26\" width=\"21\" height=\"23\" fill=\"none\"><path d=\"M2 2 15 13 2 24V2Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"m2 2 18 10c.8.4.8 1.6 0 2L2 24M10 8l5 5-5 5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/></svg><span>Get it on Google Play</span><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
       "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:11px;background:var(--green);color:#ffffff;border:1px solid var(--green);border-radius:9px;padding:17px 21px;min-height:54px;font-family:\"Plus Jakarta Sans\",sans-serif;font-size:15px;font-weight:600;line-height:1.2;text-decoration:none;transition:background .2s,transform .2s}.ds-button-primary:hover{background:#12382c;transform:translateY(-2px)}.ds-button-primary:focus-visible{outline:3px solid #7856a3;outline-offset:5px;border-radius:3px;}.ds-button-primary:active{transform:translateY(0) scale(.98)}.ds-button-primary svg{transition:transform 180ms cubic-bezier(.16,1,.3,1)}.ds-button-primary:hover svg:last-child,.ds-button-primary:focus-visible svg:last-child{transform:translate(2px,-2px)}@media(prefers-reduced-motion:reduce){.ds-button-primary,.ds-button-primary svg{transition-duration:.01ms}.ds-button-primary:hover,.ds-button-primary:active,.ds-button-primary svg:last-child{transform:none}}"
     },
@@ -409,7 +409,7 @@
       "name": "Compact Google Play action",
       "kind": "button",
       "refersTo": "button-compact",
-      "description": "Download action in the finished Cartera website.",
+      "description": "Download action in the finished Moneybee website.",
       "html": "<a class=\"ds-button-compact\" href=\"https://play.google.com/store/apps/details?id=media.uqab.cartera\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 26\" width=\"21\" height=\"23\" fill=\"none\"><path d=\"M2 2 15 13 2 24V2Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"m2 2 18 10c.8.4.8 1.6 0 2L2 24M10 8l5 5-5 5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/></svg><span>Google Play</span><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
       "css": ".ds-button-compact{display:inline-flex;align-items:center;justify-content:center;gap:11px;background:var(--green);color:#ffffff;border:1px solid var(--green);border-radius:9px;padding:12px 16px;min-height:46px;font-family:\"Plus Jakarta Sans\",sans-serif;font-size:14px;font-weight:600;line-height:1.2;text-decoration:none;transition:background .2s,transform .2s}.ds-button-compact:hover{background:#12382c;transform:translateY(-2px)}.ds-button-compact:focus-visible{outline:3px solid #7856a3;outline-offset:5px;border-radius:3px;}.ds-button-compact:active{transform:translateY(0) scale(.98)}.ds-button-compact svg{transition:transform 180ms cubic-bezier(.16,1,.3,1)}.ds-button-compact:hover svg:last-child,.ds-button-compact:focus-visible svg:last-child{transform:translate(2px,-2px)}@media(prefers-reduced-motion:reduce){.ds-button-compact,.ds-button-compact svg{transition-duration:.01ms}.ds-button-compact:hover,.ds-button-compact:active,.ds-button-compact svg:last-child{transform:none}}"
     },
@@ -417,7 +417,7 @@
       "name": "Inverse Google Play action",
       "kind": "button",
       "refersTo": "button-inverse",
-      "description": "Download action in the finished Cartera website.",
+      "description": "Download action in the finished Moneybee website.",
       "html": "<a class=\"ds-button-inverse\" href=\"https://play.google.com/store/apps/details?id=media.uqab.cartera\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 26\" width=\"21\" height=\"23\" fill=\"none\"><path d=\"M2 2 15 13 2 24V2Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"m2 2 18 10c.8.4.8 1.6 0 2L2 24M10 8l5 5-5 5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/></svg><span>Get it on Google Play</span><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
       "css": ".ds-button-inverse{display:inline-flex;align-items:center;justify-content:center;gap:11px;background:var(--paper);color:#244c3b;border:1px solid var(--paper);border-radius:9px;padding:17px 21px;min-height:54px;font-family:\"Plus Jakarta Sans\",sans-serif;font-size:15px;font-weight:600;line-height:1.2;text-decoration:none;transition:background .2s,transform .2s}.ds-button-inverse:hover{background:#e0e8c7;transform:translateY(-2px)}.ds-button-inverse:focus-visible{outline:3px solid #7856a3;outline-offset:5px;border-radius:3px;}.ds-button-inverse:active{transform:translateY(0) scale(.98)}.ds-button-inverse svg{transition:transform 180ms cubic-bezier(.16,1,.3,1)}.ds-button-inverse:hover svg:last-child,.ds-button-inverse:focus-visible svg:last-child{transform:translate(2px,-2px)}@media(prefers-reduced-motion:reduce){.ds-button-inverse,.ds-button-inverse svg{transition-duration:.01ms}.ds-button-inverse:hover,.ds-button-inverse:active,.ds-button-inverse svg:last-child{transform:none}}"
     },
@@ -480,7 +480,7 @@
   ],
   "narrative": {
     "northStar": "The financial notebook",
-    "overview": "Cartera uses the financial notebook as its visual reference: clear text, pale section bands, softly rounded surfaces, and recognizable pages for different parts of life. The owner’s Monefy-inspired direction appears as pale mint, white, warm gray, and dark green with a readable sans-serif throughout.\n\nThe website presents an Android product through its actual app icon and owner-supplied app screenshots. Notebook and planning illustrations explain the recordkeeping mechanism; their sample records are identified as illustrative. Product descriptions use direct, declarative language, while download and support controls use clear action wording.",
+    "overview": "Moneybee uses the financial notebook as its visual reference: clear text, pale section bands, softly rounded surfaces, and recognizable pages for different parts of life. The owner’s Monefy-inspired direction appears as pale mint, white, warm gray, and dark green with a readable sans-serif throughout.\n\nThe website presents an Android product through its actual app icon and owner-supplied app screenshots. Notebook and planning illustrations explain the recordkeeping mechanism; their sample records are identified as illustrative. Product descriptions use direct, declarative language, while download and support controls use clear action wording.",
     "keyCharacteristics": [
       "Pale mint, white, and warm-gray section bands with dark green accents.",
       "Self-hosted Plus Jakarta Sans for both headings and reading text.",
@@ -490,7 +490,7 @@
     "rules": [
       {
         "name": "Readable Sans",
-        "body": "Use Plus Jakarta Sans for display and reading text; retain the clean sans-serif direction confirmed for Cartera.",
+        "body": "Use Plus Jakarta Sans for display and reading text; retain the clean sans-serif direction confirmed for Moneybee.",
         "section": "typography"
       },
       {
@@ -502,7 +502,7 @@
     "dos": [
       "Do use the existing mint, paper, and warm-gray surfaces with dark green text and actions.",
       "Do keep headings and body copy in the self-hosted Plus Jakarta Sans family.",
-      "Do retain the actual Cartera icon, real app screenshots, and understandable notebook mechanism.",
+      "Do retain the actual Moneybee icon, real app screenshots, and understandable notebook mechanism.",
       "Do label sample financial records as illustrations and keep product descriptions declarative.",
       "Do preserve visible keyboard focus, labeled controls, responsive stacking, and reduced-motion behavior."
     ],

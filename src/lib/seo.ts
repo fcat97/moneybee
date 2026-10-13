@@ -11,13 +11,13 @@ interface PageMetadataOptions {
 
 export function createPageMetadata({ title, description, path, image, article }: PageMetadataOptions): Metadata {
   const url = absoluteUrl(path);
-  const socialTitle = path === '/' ? title : `${title} | Cartera`;
+  const socialTitle = path === '/' ? title : `${title} | Moneybee`;
   const preview = image ?? {
     url: '/social-preview.png', width: 1200, height: 630,
-    alt: 'Cartera expense tracker and budget planner for Android.',
+    alt: 'Moneybee expense tracker and budget planner for Android.',
   };
   const social = {
-    title: socialTitle, description, url, siteName: 'Cartera', locale: 'en_US',
+    title: socialTitle, description, url, siteName: 'Moneybee', locale: 'en_US',
     images: [{ ...preview, url: absoluteUrl(preview.url) }],
   };
 

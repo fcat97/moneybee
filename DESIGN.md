@@ -1,5 +1,5 @@
 ---
-name: Cartera
+name: Moneybee
 description: A clean financial notebook for everyday money.
 colors:
   paper: '#ffffff'
@@ -143,13 +143,13 @@ components:
     typography: '{typography.navigation}'
 ---
 
-# Design System: Cartera
+# Design System: Moneybee
 
 ## Overview
 
 **Creative North Star: "The financial notebook"**
 
-Cartera uses the financial notebook as its visual reference: clear text, pale section bands, softly rounded surfaces, and recognizable pages for different parts of life. The owner’s Monefy-inspired direction appears as pale mint, white, warm gray, and dark green with a readable sans-serif throughout.
+Moneybee uses the financial notebook as its visual reference: clear text, pale section bands, softly rounded surfaces, and recognizable pages for different parts of life. The owner’s Monefy-inspired direction appears as pale mint, white, warm gray, and dark green with a readable sans-serif throughout.
 
 The website presents an Android product through its actual app icon and owner-supplied app screenshots. Notebook and planning illustrations explain the recordkeeping mechanism; their sample records are identified as illustrative. Product descriptions use direct, declarative language, while download and support controls use clear action wording.
 
@@ -201,7 +201,7 @@ The variable font is self-hosted at `/fonts/plus-jakarta-sans-latin.woff2`, cove
 
 Small captions and sample-record labels belong to illustrations and secondary notes. They are not a reusable reading-text scale.
 
-**The Readable Sans Rule.** Use Plus Jakarta Sans for display and reading text; retain the clean sans-serif direction confirmed for Cartera.
+**The Readable Sans Rule.** Use Plus Jakarta Sans for display and reading text; retain the clean sans-serif direction confirmed for Moneybee.
 
 ## Layout
 
@@ -264,7 +264,7 @@ Support fields are white with a field border, green ink, visible labels, and 46p
 
 ### Navigation
 
-The pale mint sticky header carries the actual app icon, strong Cartera wordmark, plain text links, compact download action, and mobile menu. Desktop links reveal a fine underline over 180ms on hover and keyboard focus. Mobile links sit in a white bordered, softly shadowed disclosure panel; hovering adds a pale green background. Escape closes the menu and restores focus to its trigger; outside interaction and link selection close it.
+The pale mint sticky header carries the actual app icon, strong Moneybee wordmark, plain text links, compact download action, and mobile menu. Desktop links reveal a fine underline over 180ms on hover and keyboard focus. Mobile links sit in a white bordered, softly shadowed disclosure panel; hovering adds a pale green background. Escape closes the menu and restores focus to its trigger; outside interaction and link selection close it.
 
 ### FAQ
 
@@ -284,7 +284,7 @@ One-time illustration motion uses `cubic-bezier(0.16, 1, 0.3, 1)`: phone/noteboo
 
 - **Do** use the existing mint, paper, and warm-gray surfaces with dark green text and actions.
 - **Do** keep headings and body copy in the self-hosted Plus Jakarta Sans family.
-- **Do** retain the actual Cartera icon, real app screenshots, and understandable notebook mechanism.
+- **Do** retain the actual Moneybee icon, real app screenshots, and understandable notebook mechanism.
 - **Do** label sample financial records as illustrations and keep product descriptions declarative.
 - **Do** preserve visible keyboard focus, labeled controls, responsive stacking, and reduced-motion behavior.
 

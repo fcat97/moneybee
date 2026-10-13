@@ -6,12 +6,12 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { ArrowDown, BookOpen, BriefcaseBusiness, ChevronLeft, ChevronRight, House, Pause, Plane, Play } from 'lucide-react';
 
 const screenshots = [
-  { file: 'books-and-pages-light', title: 'Books & pages · Light', alt: 'Cartera in light appearance, with account balances and notebook pages for monthly expenses and a trip.' },
-  { file: 'books-and-pages-dark', title: 'Books & pages · Dark', alt: 'Cartera in dark appearance, with account balances and notebook pages for monthly expenses and a trip.' },
+  { file: 'books-and-pages-light', title: 'Books & pages · Light', alt: 'Moneybee in light appearance, with account balances and notebook pages for monthly expenses and a trip.' },
+  { file: 'books-and-pages-dark', title: 'Books & pages · Dark', alt: 'Moneybee in dark appearance, with account balances and notebook pages for monthly expenses and a trip.' },
   { file: 'monthly-transactions-dark', title: 'Monthly transactions · Dark', alt: 'A monthly page in dark appearance, showing expense categories and individual transaction records.' },
   { file: 'monthly-transactions-light', title: 'Monthly transactions · Light', alt: 'A monthly page in light appearance, showing expense categories and individual transaction records.' },
-  { file: 'spending-analysis', title: 'Spending analysis', alt: 'Cartera’s spending breakdown by category, with the corresponding transaction list.' },
-  { file: 'monthly-budget', title: 'Monthly budget', alt: 'Cartera’s monthly budget progress above notebook pages and a spending breakdown.' },
+  { file: 'spending-analysis', title: 'Spending analysis', alt: 'Moneybee’s spending breakdown by category, with the corresponding transaction list.' },
+  { file: 'monthly-budget', title: 'Monthly budget', alt: 'Moneybee’s monthly budget progress above notebook pages and a spending breakdown.' },
   { file: 'trip-transactions', title: 'Trip transactions', alt: 'A Thailand Tour page showing travel expense categories and transaction records.' },
 ];
 
@@ -65,7 +65,7 @@ export function HeroScreenshotCarousel() {
   }
 
   return (
-    <figure ref={figureRef} className="hero-visual" data-motion="hero-notebook" role="region" aria-roledescription="carousel" aria-label="Cartera app screenshots"
+    <figure ref={figureRef} className="hero-visual" data-motion="hero-notebook" role="region" aria-roledescription="carousel" aria-label="Moneybee app screenshots"
       onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}
       onFocusCapture={() => setFocused(true)} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocused(false); }}
       onKeyDown={event => {

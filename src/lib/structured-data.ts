@@ -10,7 +10,7 @@ export function generateSiteSchema() {
         url: home, logo: { '@type': 'ImageObject', url: absoluteUrl('/icon.png') },
       },
       {
-        '@type': 'WebSite', '@id': `${home}#website`, name: 'Cartera', url: home,
+        '@type': 'WebSite', '@id': `${home}#website`, name: 'Moneybee', url: home,
         description: SITE_DESCRIPTION, inLanguage: 'en', publisher: { '@id': `${home}#publisher` },
       },
     ],
@@ -24,11 +24,11 @@ export function generateAppSchema() {
     '@graph': [
       {
         '@type': 'WebPage', '@id': `${home}#webpage`, url: home,
-        name: 'Cartera — Your money, organized for real life.', description: SITE_DESCRIPTION,
+        name: 'Moneybee — Your money, organized for real life.', description: SITE_DESCRIPTION,
         isPartOf: { '@id': `${home}#website` }, mainEntity: { '@id': `${home}#app` }, inLanguage: 'en',
       },
       {
-        '@type': 'MobileApplication', '@id': `${home}#app`, name: 'Cartera',
+        '@type': 'MobileApplication', '@id': `${home}#app`, name: 'Moneybee',
         applicationCategory: 'FinanceApplication', operatingSystem: 'Android',
         description: SITE_DESCRIPTION, url: home, downloadUrl: GOOGLE_PLAY_URL,
         image: absoluteUrl('/icon.png'), publisher: { '@id': `${home}#publisher` },
@@ -89,7 +89,7 @@ export function generateArticleSchema(
     datePublished: new Date(datePublished).toISOString(),
     author: {
       '@type': 'Organization',
-      name: 'Cartera Team',
+      name: 'Moneybee Team',
       url: baseUrl,
     },
     publisher: {

@@ -9,9 +9,9 @@ export function Footer() {
       <div className="site-shell">
         <div className="footer-top">
           <div>
-            <Link href="/" className="brand" aria-label="Cartera home">
+            <Link href="/" className="brand" aria-label="Moneybee home">
               <Image src="/icon.png" alt="" width={38} height={38} />
-              <span>Cartera</span>
+              <span>Moneybee</span>
             </Link>
             <p>A little structure for everyday money.</p>
           </div>

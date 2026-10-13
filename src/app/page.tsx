@@ -14,12 +14,12 @@ import { FeaturesOverview } from '@/components/features-overview';
 export const metadata = createPageMetadata({ title: SITE_TITLE, description: SITE_DESCRIPTION, path: '/' });
 
 const questions = [
-  ['What is Cartera?', 'Cartera is an Android expense tracker and money manager that brings everyday records, budgets, savings goals, loans, and shared finances together in one financial notebook.'],
+  ['What is Moneybee?', 'Moneybee is an Android expense tracker and money manager that brings everyday records, budgets, savings goals, loans, and shared finances together in one financial notebook.'],
   ['How do pages and accounts fit together?', 'Accounts represent where money is held or moves: cash, a bank account, or a card. Pages organize records by context, such as a month, a trip, or a project. Books bring related pages together. Each transaction retains its account and its context.'],
-  ['What multi-currency features are included?', 'Cartera supports currency-specific records, balances, and analysis, with both sides of a currency exchange represented in account statements. Each collaboration group uses one configured currency.'],
+  ['What multi-currency features are included?', 'Moneybee supports currency-specific records, balances, and analysis, with both sides of a currency exchange represented in account statements. Each collaboration group uses one configured currency.'],
   ['What does Loan Management include?', 'Loan Management brings money lent, money borrowed, contact details, and related repayments into a dedicated overview. Loans can also be recorded before a contact is attached.'],
-  ['What kinds of savings goals does Cartera support?', 'Savings goals support amounts, deadlines, regular contributions, history-based emergency funds, and recurring future costs. Progress measures reflect the type of goal and the financial records available.'],
-  ['How are payments and transfers represented?', 'Transfers, savings contributions, bill payments, and group settlements are records of financial activity. Account balances reflect the amounts entered in Cartera, with related activity available in statements and history.'],
+  ['What kinds of savings goals does Moneybee support?', 'Savings goals support amounts, deadlines, regular contributions, history-based emergency funds, and recurring future costs. Progress measures reflect the type of goal and the financial records available.'],
+  ['How are payments and transfers represented?', 'Transfers, savings contributions, bill payments, and group settlements are records of financial activity. Account balances reflect the amounts entered in Moneybee, with related activity available in statements and history.'],
   ['Which features are available offline?', 'Personal records use local storage. Cloud sync, AI, and group updates are online features. Collaboration also supports cached reading of previously available records.'],
   ['What backup options are included?', 'Local backup creation and restore during setup are included in the app. Cloud synchronization between Android devices is available according to the current plan and service configuration.'],
   ['How does the assistant work with financial records?', 'The assistant provides transaction lookups, summaries, and supported record creation or editing through chat. Messages, attachments, and relevant records are processed by external AI providers. Recognized transaction details remain editable before saving.'],
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="hero-copy" data-motion="hero-ink">
 
           <h1 id="hero-title">Your money,<br />organized for<br /><span className="ink-underline">real life.</span></h1>
-          <p className="hero-description">Cartera brings everyday spending, budgets, savings goals, and shared finances into one Android app. Notebook-style pages and connected accounts give every part of life its own place.</p>
+          <p className="hero-description">Moneybee brings everyday spending, budgets, savings goals, and shared finances into one Android app. Notebook-style pages and connected accounts give every part of life its own place.</p>
           <div className="hero-actions">
             <PlayStoreLink />
             <a href="#features" className="text-link">Explore the features <ArrowRight size={18} aria-hidden="true" /></a>
@@ -70,7 +70,7 @@ export default function Home() {
         <div className="feature-story">
 
           <h2 id="notebook-title">One life.<br />More than one page.</h2>
-          <p>Cartera’s pages give a month, a household, a trip, or a project its own space. Books bring related pages together, while connected accounts retain the financial context behind each record.</p>
+          <p>Moneybee’s pages give a month, a household, a trip, or a project its own space. Books bring related pages together, while connected accounts retain the financial context behind each record.</p>
           <div className="account-page-explanation">
             <div><Wallet size={22} aria-hidden="true" /><p><strong>Accounts tell you where.</strong><br />Cash, a bank account, a card.</p></div>
             <div><BookOpen size={22} aria-hidden="true" /><p><strong>Pages tell you what for.</strong><br />Home, travel, work, and everything between.</p></div>
@@ -114,7 +114,7 @@ export default function Home() {
           <div className="shared-feature">
             <div className="shared-feature-copy">
               <h2 id="shared-title">Your people.<br />One shared ledger.</h2>
-              <p>Everyone brings their part. Cartera brings the records together.</p>
+              <p>Everyone brings their part. Moneybee brings the records together.</p>
               <p>Shared expenses, contributions, and recorded payments give trips, households, clubs, and communities a common financial record.</p>
               <div className="shared-feature-summary"><Users size={23} strokeWidth={1.5} aria-hidden="true" /><span>Multiple members. Connected records.</span></div>
             </div>
@@ -131,7 +131,7 @@ export default function Home() {
 
       <div className="section-band section-band--mint">
       <section className="ai-section site-shell section-space" aria-labelledby="ai-title">
-        <div><h2 id="ai-title">An assistant for<br />everyday money.</h2><p>The Cartera assistant provides spending summaries, budget information, and record creation or editing through chat. Voice and image entry return transaction details that remain editable before saving.</p><p className="access-note">AI features require eligible access and connectivity. Messages, attachments, and relevant records are processed by external AI providers.</p></div>
+        <div><h2 id="ai-title">An assistant for<br />everyday money.</h2><p>The Moneybee assistant provides spending summaries, budget information, and record creation or editing through chat. Voice and image entry return transaction details that remain editable before saving.</p><p className="access-note">AI features require eligible access and connectivity. Messages, attachments, and relevant records are processed by external AI providers.</p></div>
         <div className="ai-notes">
           <p className="note-label">Chat, voice & images</p>
           <div className="ai-prompt"><Search size={19} aria-hidden="true" /><span>Spending and budget queries</span></div>
@@ -153,20 +153,20 @@ export default function Home() {
       </section>
 
       <section id="faq" className="faq-section site-shell section-space" aria-labelledby="faq-title">
-        <div className="faq-heading"><h2 id="faq-title">About Cartera.</h2><p>Product features, access, and everyday use.</p><a href="#contact" className="text-link">Ask us something <ArrowRight size={17} aria-hidden="true" /></a></div>
+        <div className="faq-heading"><h2 id="faq-title">About Moneybee.</h2><p>Product features, access, and everyday use.</p><a href="#contact" className="text-link">Ask us something <ArrowRight size={17} aria-hidden="true" /></a></div>
         <div className="faq-list">{questions.map(([question, answer]) => <details className="faq-item" key={question}><summary><span>{question}</span><Plus className="faq-plus" size={19} aria-hidden="true" /><Minus className="faq-minus" size={19} aria-hidden="true" /></summary><p>{answer}</p></details>)}</div>
       </section>
 
       <div className="section-band section-band--mint">
       <section id="contact" className="contact-section site-shell" aria-labelledby="contact-title">
-        <div><h2 id="contact-title">Cartera support.</h2><p>A direct point of contact for product questions,<br />feedback, and feature suggestions.</p><span className="contact-doodle" aria-hidden="true"><NotebookPen size={76} strokeWidth={.8} /></span></div>
+        <div><h2 id="contact-title">Moneybee support.</h2><p>A direct point of contact for product questions,<br />feedback, and feature suggestions.</p><span className="contact-doodle" aria-hidden="true"><NotebookPen size={76} strokeWidth={.8} /></span></div>
         <ContactForm />
       </section>
       </div>
 
       <section id="download" className="final-cta site-shell" aria-labelledby="download-title">
         <div className="final-cta-inner">
-          <div><h2 id="download-title">Everyday money.<br />One financial notebook.</h2><p>Cartera for Android brings records, planning, and shared finances together.</p></div>
+          <div><h2 id="download-title">Everyday money.<br />One financial notebook.</h2><p>Moneybee for Android brings records, planning, and shared finances together.</p></div>
           <div className="final-cta-actions"><PlayStoreLink /><span>One app. Many parts of life.</span></div>
           <BookOpen className="final-cta-book" size={200} strokeWidth={.6} aria-hidden="true" />
         </div>

@@ -1,6 +1,10 @@
-# Cartera website
+# Moneybee website
 
-The promotional website for Cartera, the Android expense tracker and financial notebook. Built with Next.js, React, and Tailwind; exports a static website.
+The promotional website for Moneybee, the Android expense tracker and financial notebook. Built with Next.js, React, and Tailwind; exports a static website.
+
+Repository: https://github.com/fcat97/moneybee. Canonical website: https://moneybee.yellowbytes.dev/.
+
+Moneybee was previously named Cartera. The existing Android package ID (`media.uqab.cartera`), article URLs, app icon, and screenshots are retained. Updating the Play listing, screenshot artwork, DNS, and hosting is separate from this website rebrand.
 
 Run the local preview with npm run dev (port 9002). Verify with npm run typecheck, npm test, and npm run build. The production export is written to out/.
 

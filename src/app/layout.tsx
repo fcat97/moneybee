@@ -13,13 +13,13 @@ import { generateSiteSchema } from '@/lib/structured-data';
 export const metadata: Metadata = {
   title: {
     default: SITE_TITLE,
-    template: '%s | Cartera',
+    template: '%s | Moneybee',
   },
   description: SITE_DESCRIPTION,
   authors: [{ name: 'UqabMedia' }],
   creator: 'UqabMedia',
   metadataBase: new URL(SITE_URL),
-  applicationName: 'Cartera',
+  applicationName: 'Moneybee',
   icons: { icon: [{ url: '/icon.png', type: 'image/png', sizes: '512x512' }], apple: '/icon.png' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 };

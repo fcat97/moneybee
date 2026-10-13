@@ -165,7 +165,7 @@
         ],
         "icon": "GitCompareArrows",
         "id": "connected-accounting",
-        "details": "Cartera uses a connected double-entry structure beneath its notebook interface. Related account movements and balances preserve the financial context of entered records while pages organize their everyday purpose."
+        "details": "Moneybee uses a connected double-entry structure beneath its notebook interface. Related account movements and balances preserve the financial context of entered records while pages organize their everyday purpose."
       }
     ]
   },
@@ -238,7 +238,7 @@
         "details": "Supported recognition flows accept voice notes or selected and cropped images. Extracted details remain editable before saving; processing uses external AI providers and eligible online access."
       },
       {
-        "title": "Cartera assistant",
+        "title": "Moneybee assistant",
         "lines": [
           "Record lookups and summaries through chat.",
           "Supported records and plans can be created or edited."

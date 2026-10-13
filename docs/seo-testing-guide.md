@@ -1,6 +1,6 @@
 # SEO verification and publication
 
-Canonical site: https://cartera.yellowbytes.dev/. Implementation checked 6 October 2026.
+Canonical site: https://moneybee.yellowbytes.dev/. Implementation checked 6 October 2026.
 
 ## Local verification
 
@@ -17,8 +17,8 @@ The SEO check reads the exported HTML, sitemap, and robots.txt. It verifies uniq
 ## Publication checks
 
 1. Deploy the checked `out/` artifact to the canonical domain. Confirm HTTPS and that unknown routes return a real HTTP 404 rather than the homepage. Check that each sitemap page returns HTTP 200 and that CSS, JavaScript, fonts, and images load.
-2. Inspect [robots.txt](https://cartera.yellowbytes.dev/robots.txt) and [sitemap.xml](https://cartera.yellowbytes.dev/sitemap.xml). Rendering assets under `/_next/` must be crawlable. Only actual public pages belong in the sitemap.
-3. In the verified [Google Search Console](https://search.google.com/search-console) property for this domain, submit `https://cartera.yellowbytes.dev/sitemap.xml`. Use URL Inspection for the homepage and four article URLs. Account ownership and deployment are required; these actions are not performed by the local implementation.
+2. Inspect [robots.txt](https://moneybee.yellowbytes.dev/robots.txt) and [sitemap.xml](https://moneybee.yellowbytes.dev/sitemap.xml). Rendering assets under `/_next/` must be crawlable. Only actual public pages belong in the sitemap.
+3. In the verified [Google Search Console](https://search.google.com/search-console) property for this domain, submit `https://moneybee.yellowbytes.dev/sitemap.xml`. Use URL Inspection for the homepage and four article URLs. Account ownership and deployment are required; these actions are not performed by the local implementation.
 4. Use [Rich Results Test](https://search.google.com/test/rich-results) for the deployed articles. Validate general app/site schema with [Schema Markup Validator](https://validator.schema.org/). Inspect rendered content and canonical selection in Search Console.
 5. Check previews with [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) and [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/). The homepage uses `social-preview.png`; articles use their own 1200 × 600 images.
 6. Measure the deployed homepage and articles with [PageSpeed Insights](https://pagespeed.web.dev/). Address measured regressions rather than assuming a score from local checks. Monitor Search Console impressions, clicks, indexing, and Core Web Vitals after publication.

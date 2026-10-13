@@ -1,8 +1,8 @@
-# Copilot Instructions for Cartera
+# Copilot Instructions for Moneybee
 
 ## Project Overview
 
-Cartera is a Next.js 15-based marketing website for an expense tracker and budget planner app. The site showcases features, displays terms/privacy policy, and includes a contact form. Built with TypeScript, React Server Components, and shadcn/ui components.
+Moneybee is a Next.js 15-based marketing website for an expense tracker and budget planner app. The site showcases features, displays terms/privacy policy, and includes a contact form. Built with TypeScript, React Server Components, and shadcn/ui components.
 
 ## Build, Test, and Lint Commands
 
@@ -76,7 +76,7 @@ npx shadcn@latest add <component-name>
 **Metadata Pattern**: Pages export `metadata` objects (or `generateMetadata` functions) for SEO:
 ```typescript
 export const metadata: Metadata = {
-  title: 'Page Title | Cartera',
+  title: 'Page Title | Moneybee',
   description: '...',
 };
 ```
@@ -107,8 +107,8 @@ Genkit is configured in `src/ai/genkit.ts` with Google Gemini 2.5 Flash as the d
 - Add new remote domains to `next.config.ts` `images.remotePatterns` array
 - **Image paths for GitHub Pages**: Use paths starting with `/` (e.g., `/blog-getting-started.jpg`, `/banner.png`)
   - Next.js Image component automatically handles basePath injection
-  - GitHub Actions `actions/configure-pages@v5` injects `basePath: '/cartera'` during deployment
-  - Do NOT hardcode `/cartera/` prefix - Next.js handles this automatically
+  - GitHub Actions `actions/configure-pages@v5` injects `basePath: '/moneybee'` during deployment
+  - Do NOT hardcode `/moneybee/` prefix - Next.js handles this automatically
   - Place all public images in `/public/` root directory (not subdirectories)
 
 ### Icons

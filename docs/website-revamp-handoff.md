@@ -1,6 +1,6 @@
-# Cartera website revamp
+# Moneybee website revamp
 
-The draft follows the owner’s Monefy reference: pale mint, white, and soft-gray section backgrounds, forest-green accents, and readable sans-serif typography. Cartera’s books-and-pages mechanism and product-focused copy remain intact. It keeps the existing Next.js static-export architecture and Google Play download route. Deployment has not been performed.
+The draft follows the owner’s Monefy reference: pale mint, white, and soft-gray section backgrounds, forest-green accents, and readable sans-serif typography. Moneybee’s books-and-pages mechanism and product-focused copy remain intact. It keeps the existing Next.js static-export architecture and Google Play download route. Deployment has not been performed.
 
 ## What changed
 
@@ -11,7 +11,7 @@ The draft follows the owner’s Monefy reference: pale mint, white, and soft-gra
 - The polish pass improved mobile screenshot visibility, caption legibility, placeholder contrast, animated carousel selection, invalid-field feedback, and tap-outside navigation dismissal.
 - Added responsive navigation, keyboard focus and skip navigation, expandable FAQs, reduced-motion support, and contact validation.
 - The contact form opens a properly encoded email draft. It never claims a message was delivered. Visitors send it in their email app; a direct email link is also provided.
-- Kept blog and legal URLs and existing legal text. Updated metadata, sitemap, robots, blog canonicals, and structured-data URLs to https://cartera.yellowbytes.dev.
+- Kept blog and legal URLs and existing legal text. Updated metadata, sitemap, robots, blog canonicals, and structured-data URLs to https://moneybee.yellowbytes.dev.
 - Used the existing app icon, an optimized real Analysis capture, locally hosted Plus Jakarta Sans with its OFL license, and a social preview.
 
 ## Assets

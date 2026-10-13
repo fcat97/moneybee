@@ -7,7 +7,7 @@ import { absoluteUrl } from '@/lib/site';
 
 export const metadata = createPageMetadata({
   title: 'Expense Tracking, Budget & Shared Ledger Features',
-  description: 'Explore Cartera’s Android features: books and pages, accounts, budgets, savings goals, loans, local backups, AI entry, and shared financial ledgers.',
+  description: 'Explore Moneybee’s Android features: books and pages, accounts, budgets, savings goals, loans, local backups, AI entry, and shared financial ledgers.',
   path: '/features',
 });
 
@@ -31,7 +31,7 @@ export default function FeaturesPage() {
         '@graph': [
           {
             '@type': 'CollectionPage', '@id': `${url}#webpage`, url,
-            name: 'Cartera features',
+            name: 'Moneybee features',
             isPartOf: { '@id': `${absoluteUrl('/')}#website` },
             mainEntity: {
               '@type': 'ItemList', numberOfItems: features.length,
@@ -54,7 +54,7 @@ export default function FeaturesPage() {
         <nav aria-label="Breadcrumb" className="features-breadcrumb">
           <Link href="/">Home</Link><span aria-hidden="true">/</span><span aria-current="page">Features</span>
         </nav>
-        <h1>Cartera features</h1>
+        <h1>Moneybee features</h1>
         <p>Books and accounts, budgets and savings, and shared finances. A closer look at the features that bring everyday money together.</p>
         <nav aria-label="Feature categories" className="feature-category-links">
           {inventory.map((group, index) => <a href={`#${groupIds[index]}`} key={group.title}>{group.title}</a>)}

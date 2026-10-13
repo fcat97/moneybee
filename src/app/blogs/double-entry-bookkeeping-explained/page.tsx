@@ -89,7 +89,7 @@ export default function DoubleEntryBookkeepingBlogPost() {
               <CardContent className="prose dark:prose-invert max-w-none text-foreground/80 text-base leading-relaxed px-6 sm:px-8 md:px-10 py-8">
               <div className="space-y-6">
                 <p className="text-lg">
-                  You've probably heard the term "double-entry bookkeeping" and wondered what makes it different from just writing down what you spend. The answer lies in a powerful principle that has kept businesses' finances accurate for over 500 years—and now powers Cartera's expense tracking system.
+                  You've probably heard the term "double-entry bookkeeping" and wondered what makes it different from just writing down what you spend. The answer lies in a powerful principle that has kept businesses' finances accurate for over 500 years—and now powers Moneybee's expense tracking system.
                 </p>
 
                 <section className="space-y-4">
@@ -145,14 +145,14 @@ export default function DoubleEntryBookkeepingBlogPost() {
                 </section>
 
                 <section className="space-y-4">
-                  <h2 className="text-2xl font-semibold text-primary border-b pb-2">The Cartera Advantage</h2>
+                  <h2 className="text-2xl font-semibold text-primary border-b pb-2">The Moneybee Advantage</h2>
                   <p>
-                    Cartera uses double-entry bookkeeping behind the scenes, but you don't need to be an accountant to use it. Here's what this means for you:
+                    Moneybee uses double-entry bookkeeping behind the scenes, but you don't need to be an accountant to use it. Here's what this means for you:
                   </p>
                   
                   <h3 className="text-xl font-semibold text-foreground">1. Automatic Error Detection</h3>
                   <p>
-                    Because everything must balance, Cartera can catch mistakes immediately. If your accounts don't balance, you'll know something needs attention.
+                    Because everything must balance, Moneybee can catch mistakes immediately. If your accounts don't balance, you'll know something needs attention.
                   </p>
 
                   <h3 className="text-xl font-semibold text-foreground">2. Complete Financial Picture</h3>
@@ -213,10 +213,10 @@ export default function DoubleEntryBookkeepingBlogPost() {
                 <section className="space-y-4">
                   <h2 className="text-2xl font-semibold text-primary border-b pb-2">Do You Need to Understand the Details?</h2>
                   <p>
-                    <strong>No!</strong> That's the beauty of how Cartera implements double-entry bookkeeping. The app handles all the technical aspects behind the scenes.
+                    <strong>No!</strong> That's the beauty of how Moneybee implements double-entry bookkeeping. The app handles all the technical aspects behind the scenes.
                   </p>
                   <p>
-                    When you record a transaction in Cartera, you simply think: "I bought groceries with my debit card." You select:
+                    When you record a transaction in Moneybee, you simply think: "I bought groceries with my debit card." You select:
                   </p>
                   <ul className="list-disc list-inside space-y-2 pl-4">
                     <li>From: Checking Account</li>
@@ -224,7 +224,7 @@ export default function DoubleEntryBookkeepingBlogPost() {
                     <li>Amount: $100</li>
                   </ul>
                   <p>
-                    Cartera automatically creates both entries, maintains the accounting equation, and ensures everything balances. You get all the benefits of professional bookkeeping with the simplicity of writing in a notepad.
+                    Moneybee automatically creates both entries, maintains the accounting equation, and ensures everything balances. You get all the benefits of professional bookkeeping with the simplicity of writing in a notepad.
                   </p>
                 </section>
 
@@ -234,10 +234,10 @@ export default function DoubleEntryBookkeepingBlogPost() {
                     Double-entry bookkeeping has remained the gold standard in accounting for over 500 years because it works. It provides accuracy, completeness, and built-in error checking that single-entry systems simply can't match.
                   </p>
                   <p>
-                    With Cartera, you don't need to be an accountant or understand debits and credits. You just need to know where money came from and where it went. Cartera takes care of the rest, giving you the confidence that your financial records are accurate, complete, and always balanced.
+                    With Moneybee, you don't need to be an accountant or understand debits and credits. You just need to know where money came from and where it went. Moneybee takes care of the rest, giving you the confidence that your financial records are accurate, complete, and always balanced.
                   </p>
                   <p>
-                    That's the power of combining centuries-old accounting wisdom with modern, intuitive software design. Try Cartera today and experience the difference that professional-grade bookkeeping can make in your personal finances.
+                    That's the power of combining centuries-old accounting wisdom with modern, intuitive software design. Try Moneybee today and experience the difference that professional-grade bookkeeping can make in your personal finances.
                   </p>
                 </section>
               </div>

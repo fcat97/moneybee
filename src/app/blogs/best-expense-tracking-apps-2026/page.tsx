@@ -339,11 +339,11 @@ export default function BestExpenseTrackingApps2026() {
                       </div>
                     </div>
 
-                    {/* App #5 - CARTERA */}
+                    {/* App #5 - MONEYBEE */}
                     <div className="bg-primary/5 p-6 rounded-lg border-2 border-primary space-y-4">
                       <div className="flex items-start justify-between">
                         <div>
-                          <h3 className="text-2xl font-bold text-primary">5. Cartera</h3>
+                          <h3 className="text-2xl font-bold text-primary">5. Moneybee</h3>
                           <div className="flex items-center gap-3 mt-2 text-sm text-muted-foreground">
                             <div className="flex items-center gap-1">
                               <Smartphone className="h-4 w-4" />
@@ -372,12 +372,12 @@ export default function BestExpenseTrackingApps2026() {
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2">What Makes Cartera Different:</h4>
+                        <h4 className="font-semibold mb-2">What Makes Moneybee Different:</h4>
                         <p>
-                          Cartera bridges the gap between simple expense trackers and complex accounting software. While Money Manager (Realbyte) offers powerful double-entry features but feels dated, and Cashew looks beautiful but lacks accounting rigor, Cartera delivers both—professional-grade accuracy wrapped in an interface that feels as natural as writing in a notebook.
+                          Moneybee bridges the gap between simple expense trackers and complex accounting software. While Money Manager (Realbyte) offers powerful double-entry features but feels dated, and Cashew looks beautiful but lacks accounting rigor, Moneybee delivers both—professional-grade accuracy wrapped in an interface that feels as natural as writing in a notebook.
                         </p>
                         <p className="mt-2">
-                          The notepad-style approach means you don't need to learn accounting terminology. Want to track your vacation budget? Create a "Summer Vacation" page. Starting a side hustle? Make a "Freelance Income" page. Each page acts like its own ledger, but Cartera handles the complex bookkeeping behind the scenes.
+                          The notepad-style approach means you don't need to learn accounting terminology. Want to track your vacation budget? Create a "Summer Vacation" page. Starting a side hustle? Make a "Freelance Income" page. Each page acts like its own ledger, but Moneybee handles the complex bookkeeping behind the scenes.
                         </p>
                       </div>
 
@@ -407,7 +407,7 @@ export default function BestExpenseTrackingApps2026() {
 
                       <div className="bg-primary/10 p-4 rounded border border-primary/20">
                         <p className="text-sm">
-                          <strong>Why #5 and not #1?</strong> While Cartera brings unique innovations, we believe the best app depends on your specific needs. Money Manager (Realbyte) has a decade of proven reliability and 10M users. Money Manager (KTW) has the highest user rating. Cashew excels at visualizations. Budge pioneers AI features. Cartera aims to be the best all-around option, but you should try multiple apps to find your perfect fit.
+                          <strong>Why #5 and not #1?</strong> While Moneybee brings unique innovations, we believe the best app depends on your specific needs. Money Manager (Realbyte) has a decade of proven reliability and 10M users. Money Manager (KTW) has the highest user rating. Cashew excels at visualizations. Budge pioneers AI features. Moneybee aims to be the best all-around option, but you should try multiple apps to find your perfect fit.
                         </p>
                       </div>
                     </div>
@@ -489,7 +489,7 @@ export default function BestExpenseTrackingApps2026() {
                             <td className="border border-border p-2">Free/$5.99/mo</td>
                           </tr>
                           <tr className="bg-primary/10">
-                            <td className="border border-border p-2 font-semibold">Cartera</td>
+                            <td className="border border-border p-2 font-semibold">Moneybee</td>
                             <td className="border border-border p-2 text-center">✓</td>
                             <td className="border border-border p-2 text-center">✗</td>
                             <td className="border border-border p-2 text-center">✗</td>
@@ -570,7 +570,7 @@ export default function BestExpenseTrackingApps2026() {
                       <div className="bg-primary/10 p-4 rounded-lg border-2 border-primary">
                         <h4 className="font-semibold flex items-center gap-2 mb-2">
                           <CheckCircle2 className="h-5 w-5 text-primary" />
-                          Choose Cartera if you:
+                          Choose Moneybee if you:
                         </h4>
                         <ul className="list-disc list-inside space-y-1 pl-6">
                           <li>Want accounting accuracy without complexity</li>
@@ -590,14 +590,14 @@ export default function BestExpenseTrackingApps2026() {
                       <div>
                         <h4 className="font-semibold mb-2">Which expense tracking app is the most accurate?</h4>
                         <p>
-                          Apps using double-entry bookkeeping (Money Manager by Realbyte and Cartera) provide the highest accounting accuracy. This method ensures your books always balance and catches errors automatically.
+                          Apps using double-entry bookkeeping (Money Manager by Realbyte and Moneybee) provide the highest accounting accuracy. This method ensures your books always balance and catches errors automatically.
                         </p>
                       </div>
 
                       <div>
                         <h4 className="font-semibold mb-2">Are free expense tracking apps safe to use?</h4>
                         <p>
-                          Most reputable free apps are safe, but always check the privacy policy. Apps that store data locally (like Cartera and Cashew) offer maximum privacy. Cloud-based apps should use encryption and secure servers.
+                          Most reputable free apps are safe, but always check the privacy policy. Apps that store data locally (like Moneybee and Cashew) offer maximum privacy. Cloud-based apps should use encryption and secure servers.
                         </p>
                       </div>
 
@@ -625,7 +625,7 @@ export default function BestExpenseTrackingApps2026() {
                       <div>
                         <h4 className="font-semibold mb-2">Which app is best for tracking business expenses?</h4>
                         <p>
-                          For business use, choose apps with double-entry bookkeeping (Money Manager Realbyte or Cartera), photo receipt storage (Money Manager KTW), and detailed reporting. Consider creating separate accounts/pages for personal vs. business expenses.
+                          For business use, choose apps with double-entry bookkeeping (Money Manager Realbyte or Moneybee), photo receipt storage (Money Manager KTW), and detailed reporting. Consider creating separate accounts/pages for personal vs. business expenses.
                         </p>
                       </div>
                     </div>
@@ -641,23 +641,23 @@ export default function BestExpenseTrackingApps2026() {
                       <li><strong>Money Manager (KTW)</strong> takes the crown for user satisfaction and receipt management</li>
                       <li><strong>Cashew</strong> is unmatched in visual beauty and modern design</li>
                       <li><strong>Budge</strong> leads in innovation with AI-powered features</li>
-                      <li><strong>Cartera</strong> offers the best balance of simplicity and accounting accuracy</li>
+                      <li><strong>Moneybee</strong> offers the best balance of simplicity and accounting accuracy</li>
                     </ul>
                     <p>
                       We recommend downloading 2-3 apps from this list and testing them for a week each. Track the same expenses in each app and see which workflow feels most natural. The right app isn't the one with the most features—it's the one that fits seamlessly into your life.
                     </p>
                     <p>
-                      Ready to get started? Pick the app that resonates with your needs and begin your journey to better financial awareness today. Whether you choose an established favorite or give Cartera a try, the simple act of tracking your expenses consistently will transform your financial life in 2026.
+                      Ready to get started? Pick the app that resonates with your needs and begin your journey to better financial awareness today. Whether you choose an established favorite or give Moneybee a try, the simple act of tracking your expenses consistently will transform your financial life in 2026.
                     </p>
                   </section>
 
                   <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mt-8">
-                    <p className="font-semibold mb-2">Want to try Cartera?</p>
+                    <p className="font-semibold mb-2">Want to try Moneybee?</p>
                     <p className="text-sm mb-4">
                       Experience the perfect blend of notepad simplicity and accounting accuracy. Track unlimited accounts, visualize your finances, and take control of your budget—all with bank-level security.
                     </p>
                     <Button asChild>
-                      <Link href="/">Learn More About Cartera</Link>
+                      <Link href="/">Learn More About Moneybee</Link>
                     </Button>
                   </div>
                 </div>

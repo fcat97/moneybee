@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/seo';
 
 export const metadata = createPageMetadata({
   title: 'Privacy Policy',
-  description: 'The Cartera privacy policy describes how UqabMedia handles app information, storage, permissions, online services, and privacy requests.',
+  description: 'The Moneybee privacy policy describes how UqabMedia handles app information, storage, permissions, online services, and privacy requests.',
   path: '/privacy-policy',
 });
 
@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
     <div className="py-8 sm:py-12">
       <Card className="max-w-4xl mx-auto">
         <CardHeader>
-          <h1 className="text-3xl font-bold leading-none tracking-tight text-center">Privacy Policy for Cartera</h1>
+          <h1 className="text-3xl font-bold leading-none tracking-tight text-center">Privacy Policy for Moneybee</h1>
           <CardDescription className="text-center">Last Updated: January 25, 2026</CardDescription>
         </CardHeader>
         <CardContent className="prose dark:prose-invert max-w-none text-foreground/80 text-base leading-relaxed px-6 sm:px-8 md:px-10">
@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
                 <strong>Contact Email:</strong> media.uqab@gmail.com
               </p>
               <p>
-                UqabMedia (“we”, “our”, “us”) operates the mobile application Cartera (“the App”). This Privacy Policy explains how we collect, use, store, and protect your information when you use Cartera. By using Cartera, you agree to the practices described in this Policy.
+                UqabMedia (“we”, “our”, “us”) operates the mobile application Moneybee (“the App”). This Privacy Policy explains how we collect, use, store, and protect your information when you use Moneybee. By using Moneybee, you agree to the practices described in this Policy.
               </p>
             </section>
 
@@ -33,7 +33,7 @@ export default function PrivacyPolicyPage() {
               <p>We collect only the minimum information required to provide and improve the App’s core features.</p>
 
               <h3 className="text-xl font-semibold text-foreground">1.1 Account Information</h3>
-              <p>When you register for Cartera, we collect:</p>
+              <p>When you register for Moneybee, we collect:</p>
               <ul className="list-disc list-inside space-y-2 pl-4">
                 <li>Email address</li>
                 <li>User name</li>
@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage() {
 
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold text-primary border-b pb-2">3. Third-Party Service Providers</h2>
-              <p>Cartera uses trusted third-party providers to store and process data. These services have their own privacy policies and data protection mechanisms. We use:</p>
+              <p>Moneybee uses trusted third-party providers to store and process data. These services have their own privacy policies and data protection mechanisms. We use:</p>
 
               <h3 className="text-xl font-semibold text-foreground">3.1 Firebase Services</h3>
               <ul className="list-disc list-inside space-y-2 pl-4">
@@ -108,7 +108,7 @@ export default function PrivacyPolicyPage() {
 
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold text-primary border-b pb-2">6. Children’s Privacy</h2>
-              <p>Cartera is available for users of any age. We do not knowingly collect personal information from children beyond what is necessary for account creation. Parents or guardians may contact us at <a href="mailto:media.uqab@gmail.com" className="text-primary hover:underline">media.uqab@gmail.com</a> if they believe a child’s data was collected improperly.</p>
+              <p>Moneybee is available for users of any age. We do not knowingly collect personal information from children beyond what is necessary for account creation. Parents or guardians may contact us at <a href="mailto:media.uqab@gmail.com" className="text-primary hover:underline">media.uqab@gmail.com</a> if they believe a child’s data was collected improperly.</p>
             </section>
 
             <section className="space-y-4">
