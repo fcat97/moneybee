@@ -1,6 +1,6 @@
-# Moneybee website revamp
+# MoneyBee website revamp
 
-The draft follows the owner’s Monefy reference: pale mint, white, and soft-gray section backgrounds, forest-green accents, and readable sans-serif typography. Moneybee’s books-and-pages mechanism and product-focused copy remain intact. It keeps the existing Next.js static-export architecture and Google Play download route. Deployment has not been performed.
+The draft follows the owner’s Monefy reference: pale mint, white, and soft-gray section backgrounds, forest-green accents, and readable sans-serif typography. MoneyBee’s books-and-pages mechanism and product-focused copy remain intact. It keeps the existing Next.js static-export architecture and Google Play download route. Deployment has not been performed.
 
 ## What changed
 

@@ -1,8 +1,8 @@
-# Copilot Instructions for Moneybee
+# Copilot Instructions for MoneyBee
 
 ## Project Overview
 
-Moneybee is a Next.js 15-based marketing website for an expense tracker and budget planner app. The site showcases features, displays terms/privacy policy, and includes a contact form. Built with TypeScript, React Server Components, and shadcn/ui components.
+MoneyBee is a Next.js 15-based marketing website for an expense tracker and budget planner app. The site showcases features, displays terms/privacy policy, and includes a contact form. Built with TypeScript, React Server Components, and shadcn/ui components.
 
 ## Build, Test, and Lint Commands
 
@@ -76,7 +76,7 @@ npx shadcn@latest add <component-name>
 **Metadata Pattern**: Pages export `metadata` objects (or `generateMetadata` functions) for SEO:
 ```typescript
 export const metadata: Metadata = {
-  title: 'Page Title | Moneybee',
+  title: 'Page Title | MoneyBee',
   description: '...',
 };
 ```

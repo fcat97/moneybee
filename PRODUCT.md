@@ -6,7 +6,7 @@
 
 web
 
-This repository is Moneybee’s promotional website. The product it describes is an Android app; a mobile website is not a released browser version of that app.
+This repository is MoneyBee’s promotional website. The product it describes is an Android app; a mobile website is not a released browser version of that app.
 
 ## Users
 
@@ -16,9 +16,9 @@ Other audiences established by the product brief include couples and families, f
 
 ## Product Purpose
 
-Help visitors understand Moneybee, recognize a practical use case, and download the Android app from Google Play.
+Help visitors understand MoneyBee, recognize a practical use case, and download the Android app from Google Play.
 
-Moneybee helps people record and organize expenses, income, loans, budgets, savings goals, upcoming costs, and shared finances. Website success means clearer understanding and a usable path to Google Play. A website download click is not proof of an app installation.
+MoneyBee helps people record and organize expenses, income, loans, budgets, savings goals, upcoming costs, and shared finances. Website success means clearer understanding and a usable path to Google Play. A website download click is not proof of an app installation.
 
 ## Positioning
 
@@ -32,7 +32,7 @@ The product is a financial notebook with calculation and planning built in. Page
 - The existing development command is npm run dev, using port 9002.
 - Visitors may evaluate the website on a phone or desktop before using the Android app.
 - Personal app records use local storage. Cloud sync, AI, and collaboration rely on online services with access conditions.
-- Moneybee records financial activity. It does not hold, send, invest, or automatically debit money for users.
+- MoneyBee records financial activity. It does not hold, send, invest, or automatically debit money for users.
 - Public website: https://moneybee.yellowbytes.dev/.
 - Verified download route: https://play.google.com/store/apps/details?id=media.uqab.cartera.
 
@@ -63,10 +63,10 @@ Preserve /blogs, /privacy-policy, and /terms-and-conditions, or provide correct 
 
 ## Brand Commitments
 
-- The public website name is Moneybee (formerly Cartera). The previously verified Play listing title was “Cartera: Expense Tracker”; this website rebrand does not update the Play listing. PlanIt is an internal Android-project name.
+- The public website name is MoneyBee (formerly Cartera). The previously verified Play listing title was “Cartera: Expense Tracker”; this website rebrand does not update the Play listing. PlanIt is an internal Android-project name.
 - Preserve the actual app icon and the financial-notebook product mechanism. The owner’s Monefy reference supersedes the earlier ivory-and-serif styling: use pale mint, white, soft gray, dark green accents, clean sans-serif typography, and comfortable reading sizes.
 - Use direct, practical, understandable language tied to real everyday uses.
-- Marketing copy describes Moneybee’s capabilities and benefits in declarative language. Product sections describe the offering rather than instructing visitors or listing prohibitions. Buttons and essential form feedback retain clear action wording.
+- Marketing copy describes MoneyBee’s capabilities and benefits in declarative language. Product sections describe the offering rather than instructing visitors or listing prohibitions. Buttons and essential form feedback retain clear action wording.
 - Avoid unsupported superlatives, invented proof, blanket free/unlimited claims, or promises that records can never be lost.
 - yellowbytes.dev is the existing publisher attribution; changes need confirmed ownership information.
 

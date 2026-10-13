@@ -18,6 +18,6 @@ test('email drafts keep user-entered delimiters out of recipients and headers', 
   assert.equal(draft.protocol, 'mailto:');
   assert.equal(draft.pathname, 'media.uqab@gmail.com');
   assert.equal(draft.searchParams.get('bcc'), null);
-  assert.equal(draft.searchParams.get('subject'), 'Moneybee support — Alex & Sam');
+  assert.equal(draft.searchParams.get('subject'), 'MoneyBee support — Alex & Sam');
   assert.equal(draft.searchParams.get('body'), 'Name: Alex & Sam\nReply to: alex@example.com\n\nBudget question? Amount = $20 & tax = $2.\nPlease keep both lines.\n&bcc=someone@example.com');
 });

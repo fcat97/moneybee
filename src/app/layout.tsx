@@ -13,13 +13,13 @@ import { generateSiteSchema } from '@/lib/structured-data';
 export const metadata: Metadata = {
   title: {
     default: SITE_TITLE,
-    template: '%s | Moneybee',
+    template: '%s | MoneyBee',
   },
   description: SITE_DESCRIPTION,
   authors: [{ name: 'yellowbytes.dev' }],
   creator: 'yellowbytes.dev',
   metadataBase: new URL(SITE_URL),
-  applicationName: 'Moneybee',
+  applicationName: 'MoneyBee',
   icons: { icon: [{ url: '/icon.png', type: 'image/png', sizes: '512x512' }], apple: '/icon.png' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 };

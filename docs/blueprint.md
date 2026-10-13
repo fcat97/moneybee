@@ -1,4 +1,4 @@
-# **App Name**: Moneybee Website
+# **App Name**: MoneyBee Website
 
 ## Core Features:
 

@@ -36,7 +36,7 @@ for (const url of urls) {
   assert.ok(head, `${file} needs a rendered head`);
   const title = head.match(/<title>(.*?)<\/title>/)?.[1];
   assert.ok(title && !titles.has(title), `${file} needs a unique title`);
-  assert.ok(!/\| Moneybee \| Moneybee/.test(title), `${file} duplicates the site name suffix`);
+  assert.ok(!/\| MoneyBee \| MoneyBee/.test(title), `${file} duplicates the site name suffix`);
   titles.add(title);
   const meta = [...head.matchAll(/<meta\b[^>]*>/g)].map(match => attributes(match[0]));
   const value = key => meta.find(tag => tag.name === key || tag.property === key)?.content;

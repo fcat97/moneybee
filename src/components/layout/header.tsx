@@ -28,9 +28,9 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="site-shell header-inner">
-        <Link href="/" className="brand" aria-label="Moneybee home" onClick={closeMenu}>
+        <Link href="/" className="brand" aria-label="MoneyBee home" onClick={closeMenu}>
           <Image src="/icon.png" alt="" width={44} height={44} priority />
-          <span>Moneybee</span>
+          <span>MoneyBee</span>
         </Link>
         <nav className="desktop-navigation" aria-label="Main navigation">
           {navigation.map(({ href, label }) => <Link key={href} href={href}>{label}</Link>)}

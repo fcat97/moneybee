@@ -8,7 +8,7 @@ import { JsonLd } from '@/components/json-ld';
 
 export const metadata = createPageMetadata({
   title: 'Expense Tracking & Budget Planning Guides',
-  description: 'Moneybee guides cover expense tracking, budget planning, and financial recordkeeping, with tutorials and app comparisons.',
+  description: 'MoneyBee guides cover expense tracking, budget planning, and financial recordkeeping, with tutorials and app comparisons.',
   path: '/blogs',
 });
 
@@ -29,7 +29,7 @@ export default function BlogsPage() {
         </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Blog</h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Expert tips, guides, and insights to help you master your finances and get the most out of Moneybee.
+          Expert tips, guides, and insights to help you master your finances and get the most out of MoneyBee.
         </p>
       </section>
 

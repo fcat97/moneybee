@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/seo';
 
 export const metadata = createPageMetadata({
   title: 'Terms & Conditions',
-  description: 'Terms and conditions for the Moneybee Android app, including account responsibilities, acceptable use, subscriptions, and contact details.',
+  description: 'Terms and conditions for the MoneyBee Android app, including account responsibilities, acceptable use, subscriptions, and contact details.',
   path: '/terms-and-conditions',
 });
 
@@ -14,7 +14,7 @@ export default function TermsAndConditionsPage() {
         <div className="py-8 sm:py-12">
             <Card className="max-w-4xl mx-auto">
                 <CardHeader>
-                    <h1 className="text-3xl font-bold leading-none tracking-tight text-center">Terms & Conditions for Moneybee</h1>
+                    <h1 className="text-3xl font-bold leading-none tracking-tight text-center">Terms & Conditions for MoneyBee</h1>
                     <CardDescription className="text-center">Last Updated: {lastUpdatedDate}</CardDescription>
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none text-foreground/80 text-base leading-relaxed px-6 sm:px-8 md:px-10">
@@ -26,19 +26,19 @@ export default function TermsAndConditionsPage() {
                                 <strong>Contact Email:</strong> media.uqab@gmail.com
                             </p>
                             <p>
-                                These Terms & Conditions (“Terms”) govern your use of the Moneybee mobile application (“App”), owned and operated by yellowbytes.dev (“we”, “our”, “us”). By accessing or using Moneybee, you agree to be bound by these Terms. If you do not agree, you must discontinue using the App.
+                                These Terms & Conditions (“Terms”) govern your use of the MoneyBee mobile application (“App”), owned and operated by yellowbytes.dev (“we”, “our”, “us”). By accessing or using MoneyBee, you agree to be bound by these Terms. If you do not agree, you must discontinue using the App.
                             </p>
                         </section>
 
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">1. Eligibility</h2>
-                            <p>Moneybee is available to users of all ages. By using the App, you confirm that you can legally enter into a binding agreement under applicable law.</p>
+                            <p>MoneyBee is available to users of all ages. By using the App, you confirm that you can legally enter into a binding agreement under applicable law.</p>
                         </section>
 
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">2. User Accounts</h2>
                             <h3 className="text-xl font-semibold text-foreground">2.1 Registration</h3>
-                            <p>To use Moneybee, you may need to create an account. You agree to:</p>
+                            <p>To use MoneyBee, you may need to create an account. You agree to:</p>
                             <ul className="list-disc list-inside space-y-2 pl-4">
                                 <li>Provide accurate and complete information</li>
                                 <li>Keep your login credentials secure</li>
@@ -59,7 +59,7 @@ export default function TermsAndConditionsPage() {
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">3. Subscription & Payments</h2>
                             <h3 className="text-xl font-semibold text-foreground">3.1 Auto-Renewing Subscription</h3>
-                            <p>Moneybee offers auto-renewing subscriptions to enable sync and backup features.</p>
+                            <p>MoneyBee offers auto-renewing subscriptions to enable sync and backup features.</p>
                             <ul className="list-disc list-inside space-y-2 pl-4">
                                 <li>Subscriptions automatically renew at the end of each billing period unless cancelled.</li>
                                 <li>You will be charged the applicable subscription fee at the start of each renewal period.</li>
@@ -94,7 +94,7 @@ export default function TermsAndConditionsPage() {
 
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">5. User Responsibilities</h2>
-                            <p>By using Moneybee, you agree:</p>
+                            <p>By using MoneyBee, you agree:</p>
                             <ul className="list-disc list-inside space-y-2 pl-4">
                                 <li>To use the App only for lawful purposes</li>
                                 <li>To comply with all applicable local and international laws</li>
@@ -121,7 +121,7 @@ export default function TermsAndConditionsPage() {
 
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">7. Use of Third-Party Services</h2>
-                            <p>Moneybee relies on external platforms, including:</p>
+                            <p>MoneyBee relies on external platforms, including:</p>
                             <ul className="list-disc list-inside space-y-2 pl-4">
                                 <li>Firebase Authentication</li>
                                 <li>Firebase Firestore</li>
@@ -141,7 +141,7 @@ export default function TermsAndConditionsPage() {
 
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">9. “As Is” & “Without Warranties” Disclaimer</h2>
-                            <p>Moneybee is provided “as is” and “as available,” without warranties of any kind, whether express or implied. This includes, but is not limited to:</p>
+                            <p>MoneyBee is provided “as is” and “as available,” without warranties of any kind, whether express or implied. This includes, but is not limited to:</p>
                             <ul className="list-disc list-inside space-y-2 pl-4">
                                 <li>No warranty that the App will be error-free</li>
                                 <li>No warranty of uninterrupted service or availability</li>
@@ -150,7 +150,7 @@ export default function TermsAndConditionsPage() {
                                 <li>No warranty of fitness for a particular purpose</li>
                                 <li>No warranty against data corruption caused by device malfunction, third-party outage, or unexpected errors</li>
                             </ul>
-                            <p>By using Moneybee, you acknowledge and agree that:</p>
+                            <p>By using MoneyBee, you acknowledge and agree that:</p>
                             <ul className="list-disc list-inside space-y-2 pl-4">
                                 <li>Data backup and sync features may experience occasional failures</li>
                                 <li>We are not liable for any loss of data, including synced or backed-up data</li>
@@ -175,7 +175,7 @@ export default function TermsAndConditionsPage() {
 
                         <section className="space-y-4">
                             <h2 className="text-2xl font-semibold text-primary border-b pb-2">11. Changes to the Terms</h2>
-                            <p>We may update these Terms occasionally. Changes will be effective once published in the App or on our website. Continued use of Moneybee after changes implies acceptance of the updated Terms.</p>
+                            <p>We may update these Terms occasionally. Changes will be effective once published in the App or on our website. Continued use of MoneyBee after changes implies acceptance of the updated Terms.</p>
                         </section>
 
                         <section className="space-y-4">

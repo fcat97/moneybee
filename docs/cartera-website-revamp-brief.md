@@ -1,4 +1,4 @@
-# Moneybee — App Details and Website Revamp Handoff
+# MoneyBee — App Details and Website Revamp Handoff
 
 Prepared: 5 October 2026  
 Current website: https://moneybee.yellowbytes.dev/
@@ -7,7 +7,7 @@ Repository version reviewed: 3.4.01, version code 30401
 
 ## 1. Purpose and how to use this brief
 
-Revamp Moneybee's promotional website using the product description, feature inventory, suggested copy, and website structure below. The website should help visitors understand the app, recognize a use case that fits them, and download it from Google Play.
+Revamp MoneyBee's promotional website using the product description, feature inventory, suggested copy, and website structure below. The website should help visitors understand the app, recognize a use case that fits them, and download it from Google Play.
 
 This brief is grounded in the current Android source, English store-listing files, bundled release notes, and the existing website, retrieved on the date above. It is a content and product handoff; it does not establish that every implementation in the repository has reached the public Play release. No device walkthrough or production entitlement audit was performed.
 
@@ -24,7 +24,7 @@ The website recommendations are editorial proposals, not additional app features
 
 ## 2. Product identity
 
-**Public name:** Moneybee (formerly Cartera). The previously verified Play listing title was “Cartera: Expense Tracker”; updating this website does not update the listing. Use Moneybee consistently in website copy, metadata, and navigation. Existing screenshots retain the original app artwork until replacements are supplied.
+**Public name:** MoneyBee (formerly Cartera). The previously verified Play listing title was “Cartera: Expense Tracker”; updating this website does not update the listing. Use MoneyBee consistently in website copy, metadata, and navigation. Existing screenshots retain the original app artwork until replacements are supplied.
 
 **Internal project name:** PlanIt. This is the repository and theme name, not the name to introduce to prospective customers.
 
@@ -40,21 +40,21 @@ The website recommendations are editorial proposals, not additional app features
 
 **One-sentence description:**
 
-> Moneybee helps you track expenses, income, loans, budgets, savings goals, and shared finances in a flexible financial notebook.
+> MoneyBee helps you track expenses, income, loans, budgets, savings goals, and shared finances in a flexible financial notebook.
 
 **Short app description:**
 
-> Keep everyday money organized with Moneybee. Record spending and income, separate your records into pages, track accounts and loans, and plan budgets, savings goals, and upcoming payments. Use voice, images, or the Moneybee assistant when available on your plan, and keep shared costs and collections clear with collaborative ledgers.
+> Keep everyday money organized with MoneyBee. Record spending and income, separate your records into pages, track accounts and loans, and plan budgets, savings goals, and upcoming payments. Use voice, images, or the MoneyBee assistant when available on your plan, and keep shared costs and collections clear with collaborative ledgers.
 
 **Full app description:**
 
-> Moneybee is an Android money manager that brings everyday financial records into one organized place. Its notebook-style pages let you separate a household budget, a trip, a freelance project, or a small-business cash book while keeping your account balances connected.
+> MoneyBee is an Android money manager that brings everyday financial records into one organized place. Its notebook-style pages let you separate a household budget, a trip, a freelance project, or a small-business cash book while keeping your account balances connected.
 >
 > Record expenses, income, transfers, and currency exchanges. Add notes and tags, track money lent or borrowed, review account statements, and explore your financial activity through summaries, trends, and category breakdowns. Choose a quick transaction form or a prompt-style input, with voice and image entry available according to your plan.
 >
 > Plan what comes next with weekly, monthly, and yearly budgets, flexible savings goals, and scheduled expenses. Set a savings target, work toward a deadline, build a regular habit, or estimate an emergency fund from your own financial history. Review upcoming and unpaid bills, record payments against the right period, and follow your progress over time.
 >
-> For shared finances, Moneybee supports records for people who pay separately and settle together, groups that maintain a shared fund, and organizers who collect payments from members or customers. Shared balances, payment histories, statements, and permission controls help participants understand the records relevant to them.
+> For shared finances, MoneyBee supports records for people who pay separately and settle together, groups that maintain a shared fund, and organizers who collect payments from members or customers. Shared balances, payment histories, statements, and permission controls help participants understand the records relevant to them.
 >
 > Personal records use local storage, with local backup and a restore flow. Cloud sync, collaboration, and AI services use online features with access determined by the current configuration and plan. An app password and configurable automatic lock help keep financial screens private on your device.
 
@@ -92,7 +92,7 @@ Lead the home page with everyday personal finances. Introduce group use cases as
 
 **Suggested copy:** “Track what you spend, earn, move, and exchange.”
 
-Do not describe recordkeeping as bank connectivity or a payment service. Selecting a bank account in Moneybee is not evidence of automatic bank imports or a connection to the user's bank.
+Do not describe recordkeeping as bank connectivity or a payment service. Selecting a bank account in MoneyBee is not evidence of automatic bank imports or a connection to the user's bank.
 
 ### 4.2 Two ways to enter transactions
 
@@ -143,7 +143,7 @@ Example pages: “October expenses,” “Cox's Bazar trip,” “Home renovatio
 
 **Suggested copy:** “Plan a purchase, then turn it into a recorded expense.”
 
-Keep this as a supporting financial feature. Do not position Moneybee as a general project-management or task-management product.
+Keep this as a supporting financial feature. Do not position MoneyBee as a general project-management or task-management product.
 
 ### 4.5 Accounts and sub-accounts
 
@@ -161,7 +161,7 @@ Keep this as a supporting financial feature. Do not position Moneybee as a gener
 
 **Suggested copy:** “Keep cash, cards, bank accounts, and savings organized.”
 
-Account and savings balances are records maintained by the app. Moneybee does not physically hold, transfer, or invest money on the user's behalf.
+Account and savings balances are records maintained by the app. MoneyBee does not physically hold, transfer, or invest money on the user's behalf.
 
 ### 4.6 Multi-currency tracking
 
@@ -268,7 +268,7 @@ Explain percentage-of-income saving as a contribution expectation calculated fro
 
 **Suggested copy:** “Keep upcoming payments and missed periods in view.”
 
-“Pay” in these screens means record a payment. Do not imply that Moneybee sends money to a biller, automatically debits an account, or provides a released month-grid bill calendar. The calendar view appears in roadmap material.
+“Pay” in these screens means record a payment. Do not imply that MoneyBee sends money to a biller, automatically debits an account, or provides a released month-grid bill calendar. The calendar view appears in roadmap material.
 
 ### 4.11 Dashboard, search, and transaction analysis
 
@@ -306,13 +306,13 @@ Analysis treats transfers and exchanges separately from income and expense. Tag/
 
 Do not promise immediate categorization of every transaction or an unrestricted free allowance. Automatic tagging is a service-controlled background capability and is less suitable as a hero claim until production availability is confirmed.
 
-### 4.13 Voice, image entry, and the Moneybee assistant
+### 4.13 Voice, image entry, and the MoneyBee assistant
 
 **Status: Conditional.**
 
 **Voice and images:** Record a voice note or select/crop an image for supported recognition flows. Review extracted transaction details and save recognized records. These flows reduce typing; they still require users to check the result.
 
-**Assistant:** Ask questions about your Moneybee records and perform supported actions in chat. The implemented tools cover transaction lookup and totals, record creation and editing, accounts, books, pages, to-do items, budgets, plans, and savings goals. Text, voice, and image attachments are supported according to entitlements.
+**Assistant:** Ask questions about your MoneyBee records and perform supported actions in chat. The implemented tools cover transaction lookup and totals, record creation and editing, accounts, books, pages, to-do items, budgets, plans, and savings goals. Text, voice, and image attachments are supported according to entitlements.
 
 Examples for website storytelling:
 
@@ -333,7 +333,7 @@ Other implemented assistant behavior:
 
 **Benefit:** Ask about your own financial records and reduce the steps involved in supported app actions.
 
-**Suggested copy:** “Ask Moneybee about your money.”
+**Suggested copy:** “Ask MoneyBee about your money.”
 
 Important conditions: AI availability, allowances, voice access, and image access depend on the plan and remote configuration. These services need connectivity. Messages and data retrieved to answer them are sent to AI providers such as OpenAI and Google, as disclosed in the app. Do not claim on-device AI, private local model execution, unlimited AI, professional financial advice, or autonomous access to the user's bank. Bring-your-own-model support is described as a future direction in the app notice, not a released capability.
 
@@ -371,7 +371,7 @@ People contribute to one recorded pot and track spending from it.
 
 **Suggested copy:** “One shared fund, a clear record of every contribution and expense.”
 
-The shared fund is a ledger of money held elsewhere, not a Moneybee bank account or escrow service.
+The shared fund is a ledger of money held elsewhere, not a MoneyBee bank account or escrow service.
 
 #### C. Collect from people
 
@@ -462,7 +462,7 @@ Before claiming all ten languages are fully launch-ready, check current translat
 
 **Status: Accounting implementation and public listing claims reviewed; commercial scope requires confirmation.**
 
-The public product story describes double-entry accounting as the foundation of Moneybee's records. Present it as a structural benefit that connects account movements and balances, with notebook simplicity as the main user experience.
+The public product story describes double-entry accounting as the foundation of MoneyBee's records. Present it as a structural benefit that connects account movements and balances, with notebook simplicity as the main user experience.
 
 **Suggested copy:** “Notebook simplicity, with connected financial records underneath.”
 
@@ -482,15 +482,15 @@ Avoid “error-free,” “always accurate,” “professional accountant replac
 | Own/local AI model | Mentioned as future work in the assistant privacy notice | Do not present as available |
 | Offline collaboration writes | Baseline supports online writes and cached reads | Do not claim groups can add/edit money records offline |
 | iOS/web/desktop app | Not established by this Android repository | No platform badges or browser-app CTA |
-| Automatic bank sync, bill payment, cards issued by Moneybee, investing, credit scoring | Not established | Omit |
+| Automatic bank sync, bill payment, cards issued by MoneyBee, investing, credit scoring | Not established | Omit |
 | “Bank-level security,” “never lose data,” “restore in seconds,” “instant sync,” “unlimited everything” | Existing marketing wording exceeds the evidence reviewed | Replace with specific, defensible descriptions |
 | User counts, ratings, testimonials, savings statistics, rankings | No verified evidence collected | Do not invent social proof |
 
-Do not build a pricing table from generic sample benefit strings in subscription UI code. Examples such as project/storage limits or premium articles are not a verified Moneybee offering.
+Do not build a pricing table from generic sample benefit strings in subscription UI code. Examples such as project/storage limits or premium articles are not a verified MoneyBee offering.
 
 ## 6. Current website audit
 
-The current home page includes a hero, eight feature cards, reasons to choose Moneybee, a Google Play download section, privacy/terms links, and a contact form. It links to `/blogs`, `/privacy-policy`, and `/terms-and-conditions`.
+The current home page includes a hero, eight feature cards, reasons to choose MoneyBee, a Google Play download section, privacy/terms links, and a contact form. It links to `/blogs`, `/privacy-policy`, and `/terms-and-conditions`.
 
 ### Keep and strengthen
 
@@ -530,7 +530,7 @@ Start with a focused promotional home page. Use expandable feature groups or sup
 
 | Order | Section | What it should communicate |
 |---|---|---|
-| 1 | Navigation | Moneybee logo, Features, Shared finances, FAQ, Blog, Google Play CTA |
+| 1 | Navigation | MoneyBee logo, Features, Shared finances, FAQ, Blog, Google Play CTA |
 | 2 | Hero | Main promise, short description, real app screenshot, download action |
 | 3 | How it works | Create accounts/pages → record money → review and plan |
 | 4 | Notebook organization | Books, pages, accounts, and practical examples |
@@ -553,7 +553,7 @@ Optional supporting routes: `/features`, `/shared-finances`, and `/help`. These 
 
 **Headline:** Your money, organized for real life.
 
-**Description:** Track everyday spending, plan your next goal, and keep shared costs clear. Moneybee brings accounts, notebook-style pages, budgets, and loans into one Android app.
+**Description:** Track everyday spending, plan your next goal, and keep shared costs clear. MoneyBee brings accounts, notebook-style pages, budgets, and loans into one Android app.
 
 **Primary CTA:** Get it on Google Play  
 **Secondary CTA:** Explore the features
@@ -577,19 +577,19 @@ Avoid unverified badges such as “Trusted by 50,000 people” or “100% secure
 
 **Headline:** A goal can start with an amount, a date, or a habit.
 
-**Body:** Save for something specific or build a buffer for the unexpected. Choose a target, set a pace, or let Moneybee calculate the contribution needed for a deadline. Add money, see your progress, and adjust as life changes.
+**Body:** Save for something specific or build a buffer for the unexpected. Choose a target, set a pace, or let MoneyBee calculate the contribution needed for a deadline. Add money, see your progress, and adjust as life changes.
 
 ### Shared-finance section
 
 **Headline:** Keep the shared record clear.
 
-**Body:** Whether friends paid separately, a club maintains one fund, or an organizer collects dues, Moneybee helps keep contributions, costs, and outstanding balances understandable.
+**Body:** Whether friends paid separately, a club maintains one fund, or an organizer collects dues, MoneyBee helps keep contributions, costs, and outstanding balances understandable.
 
 **Three labels:** Settle together · Shared fund · Collect from people
 
 ### AI section
 
-**Headline:** Ask Moneybee about your money.
+**Headline:** Ask MoneyBee about your money.
 
 **Body:** Check spending, review budgets, and manage supported records by chat. Use voice or an image when available, and review recognized details before saving.
 
@@ -599,26 +599,26 @@ Avoid unverified badges such as “Trusted by 50,000 people” or “100% secure
 
 **Headline:** Keep your records within reach.
 
-**Body:** Create a local backup, restore it during setup, and use cloud sync when available on your plan. Add an app password and choose when Moneybee locks automatically.
+**Body:** Create a local backup, restore it during setup, and use cloud sync when available on your plan. Add an app password and choose when MoneyBee locks automatically.
 
 ### Final CTA
 
 **Headline:** Give your money a place to make sense.
 
-**Body:** Start organizing your everyday finances with Moneybee for Android.
+**Body:** Start organizing your everyday finances with MoneyBee for Android.
 
 **Button:** Get it on Google Play
 
 ## 9. FAQ copy
 
-**What is Moneybee?**
-Moneybee is an Android expense tracker and money manager for everyday records, budgets, savings goals, loans, and shared finances.
+**What is MoneyBee?**
+MoneyBee is an Android expense tracker and money manager for everyday records, budgets, savings goals, loans, and shared finances.
 
 **How are pages different from accounts?**  
 Accounts record where money is held or moves. Pages group records by context, such as a month, trip, or project. Books organize pages.
 
 **Can I use more than one currency?**  
-Yes. Moneybee supports currency-specific records and exchanges. A collaboration group uses one configured currency.
+Yes. MoneyBee supports currency-specific records and exchanges. A collaboration group uses one configured currency.
 
 **Can I track money I lent or borrowed?**  
 Yes. Record loans and review their activity in Loan Management. You can attach a contact or record the person later.
@@ -626,8 +626,8 @@ Yes. Record loans and review their activity in Loan Management. You can attach a
 **Can I plan savings without a fixed deadline?**  
 Yes. Goals can use an amount, a date, a regular contribution, or a history-based target. The available progress measures depend on the goal you choose.
 
-**Does Moneybee move money for me?**
-Moneybee records money movements and payments. Account transfers, contributions, and settlements in the app are records of financial activity, not a banking or payment service.
+**Does MoneyBee move money for me?**
+MoneyBee records money movements and payments. Account transfers, contributions, and settlements in the app are records of financial activity, not a banking or payment service.
 
 **Does it work offline?**  
 Personal records use local storage. Cloud sync and AI need connectivity. Current collaboration writes require an internet connection; cached reading is a separate capability.
@@ -635,7 +635,7 @@ Personal records use local storage. Cloud sync and AI need connectivity. Current
 **Can I back up and restore my records?**  
 Yes. Create a local backup from the app and restore a backup through setup. Cloud synchronization is available according to the current plan and service configuration.
 
-**Is Moneybee free?**
+**Is MoneyBee free?**
 The public listing describes a free core with unlimited accounts, pages, and transactions. Online services may have plan requirements or usage allowances. Verify the current offering and replace this answer with the confirmed commercial wording before launch.
 
 **How does the AI assistant handle my data?**  
@@ -651,7 +651,7 @@ The two answers with explicit verification instructions are draft handoff copy, 
 
 ## 10. Screenshots and visual direction
 
-Use the actual Moneybee icon from `appCartera/src/main/icon.png` and screenshots of the current releasable app. App styling references are in `DESIGN.md` and `feature/coreAndroid`.
+Use the actual MoneyBee icon from `appCartera/src/main/icon.png` and screenshots of the current releasable app. App styling references are in `DESIGN.md` and `feature/coreAndroid`.
 
 Suggested screenshot sequence:
 
@@ -665,11 +665,11 @@ Suggested screenshot sequence:
 | 6 | Scheduled expense with unpaid occurrences | Keep upcoming payments in view |
 | 7 | Loan Management or Analysis | Find the details behind your balances |
 | 8 | Enabled collaboration flow | Keep shared money clear |
-| 9 | Enabled assistant conversation | Ask Moneybee about your money |
+| 9 | Enabled assistant conversation | Ask MoneyBee about your money |
 
 Use a consistent fictional dataset. Keep amounts, dates, currencies, and labels consistent across frames. Never expose real contacts, receipts, account numbers, or conversation history.
 
-Design direction: a calm, legible financial notebook. Give real app screens room to explain the product. Draw visual cues from Moneybee's pages, cards, chips, progress indicators, and planning colors. Avoid generic finance illustrations replacing the interface, decorative graphs that imply nonexistent functionality, or heavy animation that makes the download path harder to find.
+Design direction: a calm, legible financial notebook. Give real app screens room to explain the product. Draw visual cues from MoneyBee's pages, cards, chips, progress indicators, and planning colors. Avoid generic finance illustrations replacing the interface, decorative graphs that imply nonexistent functionality, or heavy animation that makes the download path harder to find.
 
 The HTML wireframes under `docs/collab_page/` and tax prototypes are design references, not proof of the released app interface. Do not use tax prototype screenshots as promotional app screenshots.
 
@@ -690,9 +690,9 @@ The HTML wireframes under `docs/collab_page/` and tax prototypes are design refe
 - Use descriptive metadata and an appropriate social preview. Do not invent review/rating structured data.
 - If conversion measurement is requested, define actual events such as Google Play CTA clicks. Do not claim app installs from website clicks alone.
 
-Suggested SEO title: **Moneybee — Expense Tracker, Budgets & Shared Finances**
+Suggested SEO title: **MoneyBee — Expense Tracker, Budgets & Shared Finances**
 
-Suggested meta description: **Track expenses, loans, budgets, savings goals, and shared costs with Moneybee. Organize your money in notebook-style pages. Available for Android.**
+Suggested meta description: **Track expenses, loans, budgets, savings goals, and shared costs with MoneyBee. Organize your money in notebook-style pages. Available for Android.**
 
 ## 12. Publication facts still needing confirmation
 
@@ -745,11 +745,11 @@ Paths are relative to the repository root. Prefer live source and shipping relea
 
 ## 14. Copy-and-paste prompt for the website agent
 
-> Revamp the promotional website at https://moneybee.yellowbytes.dev/ for **Moneybee**, the Android expense tracker and money manager. Read `docs/cartera-website-revamp-brief.md` as the product/content handoff. If you cannot access that repository file, use the attached contents of the brief.
+> Revamp the promotional website at https://moneybee.yellowbytes.dev/ for **MoneyBee**, the Android expense tracker and money manager. Read `docs/cartera-website-revamp-brief.md` as the product/content handoff. If you cannot access that repository file, use the attached contents of the brief.
 >
-> The goal is to help visitors understand the product and download it from https://play.google.com/store/apps/details?id=media.uqab.cartera. The public brand is Moneybee; PlanIt is the internal repository name.
+> The goal is to help visitors understand the product and download it from https://play.google.com/store/apps/details?id=media.uqab.cartera. The public brand is MoneyBee; PlanIt is the internal repository name.
 >
-> Build the page around “Your money, organized for real life.” Explain notebook-style books/pages, expenses and income, accounts and sub-accounts, tags, transfers and currency exchanges, budgets, flexible savings goals, scheduled expenses, loans, and transaction analysis. Present shared finances through three clear jobs: settle together, maintain a shared fund, and collect payments from people. Introduce voice/image entry and the Moneybee assistant with the correct access and data-processing notes.
+> Build the page around “Your money, organized for real life.” Explain notebook-style books/pages, expenses and income, accounts and sub-accounts, tags, transfers and currency exchanges, budgets, flexible savings goals, scheduled expenses, loans, and transaction analysis. Present shared finances through three clear jobs: settle together, maintain a shared fund, and collect payments from people. Introduce voice/image entry and the MoneyBee assistant with the correct access and data-processing notes.
 >
 > Use real app screenshots and the existing app icon. Make the page clear, responsive, accessible, and fast. Include a prominent Google Play CTA, how-it-works section, practical feature stories, FAQs, and reachable contact/legal links. Preserve the existing blog, privacy, and terms URLs or their redirects. Check the contact form actually works.
 >

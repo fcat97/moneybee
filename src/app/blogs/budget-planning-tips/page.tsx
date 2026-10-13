@@ -103,7 +103,7 @@ export default function BudgetPlanningTipsBlogPost() {
                     <li><strong>20% for Savings & Debt:</strong> Emergency fund, retirement, and paying down debt</li>
                   </ul>
                   <p>
-                    This framework provides structure while remaining flexible enough to adapt to your unique situation. Use Moneybee to categorize your expenses and see how your spending aligns with this rule.
+                    This framework provides structure while remaining flexible enough to adapt to your unique situation. Use MoneyBee to categorize your expenses and see how your spending aligns with this rule.
                   </p>
                 </section>
 
@@ -113,7 +113,7 @@ export default function BudgetPlanningTipsBlogPost() {
                     Small purchases add up faster than you think. That daily coffee? $5 × 20 workdays = $100 per month. Streaming subscriptions you forgot about? Another $50. These "invisible" expenses can derail even the best-planned budget.
                   </p>
                   <p>
-                    The solution? Track everything for at least one month. Moneybee's notepad-style interface makes this painless—just jot down each purchase as it happens. You'll be amazed at what you discover about your spending habits.
+                    The solution? Track everything for at least one month. MoneyBee's notepad-style interface makes this painless—just jot down each purchase as it happens. You'll be amazed at what you discover about your spending habits.
                   </p>
                   <p>
                     <strong>Pro tip:</strong> Set a reminder on your phone to log expenses at the end of each day. Five minutes of consistency can reveal thousands in potential savings.
@@ -134,7 +134,7 @@ export default function BudgetPlanningTipsBlogPost() {
                     <li><strong>Final goal:</strong> 3-6 months of expenses</li>
                   </ol>
                   <p>
-                    Create a separate "Emergency Fund" account in Moneybee and watch it grow. Seeing your progress visualized makes it easier to stay motivated.
+                    Create a separate "Emergency Fund" account in MoneyBee and watch it grow. Seeing your progress visualized makes it easier to stay motivated.
                   </p>
                 </section>
 
@@ -154,7 +154,7 @@ export default function BudgetPlanningTipsBlogPost() {
                     <li>Make sure Income - Expenses = $0</li>
                   </ol>
                   <p>
-                    This method prevents money from "disappearing" into vague categories. With Moneybee's double-entry system, you can see exactly where every dollar is allocated and ensure your budget truly balances.
+                    This method prevents money from "disappearing" into vague categories. With MoneyBee's double-entry system, you can see exactly where every dollar is allocated and ensure your budget truly balances.
                   </p>
                 </section>
 
@@ -171,7 +171,7 @@ export default function BudgetPlanningTipsBlogPost() {
                     <li>Plan for upcoming irregular expenses (birthdays, holidays, car maintenance)</li>
                   </ul>
                   <p>
-                    Moneybee's visual insights and graphs make this review process quick and enlightening. You can spot trends at a glance and make informed decisions about where to adjust.
+                    MoneyBee's visual insights and graphs make this review process quick and enlightening. You can spot trends at a glance and make informed decisions about where to adjust.
                   </p>
                 </section>
 
@@ -181,7 +181,7 @@ export default function BudgetPlanningTipsBlogPost() {
                     Set up automatic transfers to savings accounts and automatic bill payments for fixed expenses. This "pay yourself first" approach removes temptation and ensures your financial priorities are met before discretionary spending begins.
                   </p>
                   <p>
-                    Record these automated transactions in Moneybee so your ledger stays current and you maintain a complete picture of your finances.
+                    Record these automated transactions in MoneyBee so your ledger stays current and you maintain a complete picture of your finances.
                   </p>
                 </section>
 
@@ -199,10 +199,10 @@ export default function BudgetPlanningTipsBlogPost() {
                 <section className="space-y-4">
                   <h2 className="text-2xl font-semibold text-primary border-b pb-2">Start Your Budget Journey Today</h2>
                   <p>
-                    Remember: a budget isn't about restriction—it's about intentionality. It's about making conscious choices that align with your values and goals. With these five tips and a tool like Moneybee to keep you on track, 2026 can be your most financially empowered year yet.
+                    Remember: a budget isn't about restriction—it's about intentionality. It's about making conscious choices that align with your values and goals. With these five tips and a tool like MoneyBee to keep you on track, 2026 can be your most financially empowered year yet.
                   </p>
                   <p>
-                    Ready to take control? Download Moneybee and start building a budget that actually works for your life.
+                    Ready to take control? Download MoneyBee and start building a budget that actually works for your life.
                   </p>
                 </section>
               </div>

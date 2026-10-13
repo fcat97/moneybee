@@ -79,7 +79,7 @@ export default function GettingStartedBlogPost() {
               <div className="relative h-64 md:h-96 w-full rounded-lg overflow-hidden mb-8">
                 <Image
                   src={blogPost.featuredImage}
-                  alt={`${blogPost.title} - Comprehensive guide to getting started with Moneybee expense tracking app`}
+                  alt={`${blogPost.title} - Comprehensive guide to getting started with MoneyBee expense tracking app`}
                   fill
                   className="object-cover"
                   priority
@@ -91,20 +91,20 @@ export default function GettingStartedBlogPost() {
             <CardContent className="prose dark:prose-invert max-w-none text-foreground/80 text-base leading-relaxed px-6 sm:px-8 md:px-10 py-8">
               <div className="space-y-6">
                 <p className="text-lg">
-                  Starting your journey to financial freedom doesn't have to be complicated. With Moneybee's intuitive notepad-style interface, you can begin tracking your expenses and managing your budget in just a few simple steps.
+                  Starting your journey to financial freedom doesn't have to be complicated. With MoneyBee's intuitive notepad-style interface, you can begin tracking your expenses and managing your budget in just a few simple steps.
                 </p>
 
                 <section className="space-y-4">
-                  <h2 className="text-2xl font-semibold text-primary border-b pb-2">Why Choose Moneybee?</h2>
+                  <h2 className="text-2xl font-semibold text-primary border-b pb-2">Why Choose MoneyBee?</h2>
                   <p>
-                    Moneybee combines the simplicity of writing in a notebook with the power of professional accounting software. Whether you're tracking personal expenses or managing business finances, Moneybee adapts to your needs without overwhelming you with complexity.
+                    MoneyBee combines the simplicity of writing in a notebook with the power of professional accounting software. Whether you're tracking personal expenses or managing business finances, MoneyBee adapts to your needs without overwhelming you with complexity.
                   </p>
                 </section>
 
                 <section className="space-y-4">
                   <h2 className="text-2xl font-semibold text-primary border-b pb-2">Step 1: Create Your First Page</h2>
                   <p>
-                    Think of Moneybee's "pages" like tabs in a physical notebook. You might create separate pages for:
+                    Think of MoneyBee's "pages" like tabs in a physical notebook. You might create separate pages for:
                   </p>
                   <ul className="list-disc list-inside space-y-2 pl-4">
                     <li><strong>Monthly Expenses</strong> - Track your day-to-day spending</li>
@@ -120,10 +120,10 @@ export default function GettingStartedBlogPost() {
                 <section className="space-y-4">
                   <h2 className="text-2xl font-semibold text-primary border-b pb-2">Step 2: Set Up Your Accounts</h2>
                   <p>
-                    Accounts represent where your money lives - your checking account, savings, cash, credit cards, etc. Moneybee uses double-entry bookkeeping, which means every transaction is recorded twice: once where the money comes from, and once where it goes.
+                    Accounts represent where your money lives - your checking account, savings, cash, credit cards, etc. MoneyBee uses double-entry bookkeeping, which means every transaction is recorded twice: once where the money comes from, and once where it goes.
                   </p>
                   <p>
-                    Don't worry if that sounds technical - Moneybee handles all the complexity behind the scenes. You just need to:
+                    Don't worry if that sounds technical - MoneyBee handles all the complexity behind the scenes. You just need to:
                   </p>
                   <ol className="list-decimal list-inside space-y-2 pl-4">
                     <li>Add your bank accounts with their current balances</li>
@@ -144,14 +144,14 @@ export default function GettingStartedBlogPost() {
                     <li><strong>Note:</strong> Weekly shopping at SuperMart</li>
                   </ul>
                   <p>
-                    That's it! Moneybee automatically updates your account balances and keeps everything balanced using professional accounting principles.
+                    That's it! MoneyBee automatically updates your account balances and keeps everything balanced using professional accounting principles.
                   </p>
                 </section>
 
                 <section className="space-y-4">
                   <h2 className="text-2xl font-semibold text-primary border-b pb-2">Step 4: Set Your Budget</h2>
                   <p>
-                    Once you've recorded a few transactions, set up budgets for your expense categories. Moneybee will track your spending against these budgets in real-time and alert you when you're approaching your limits.
+                    Once you've recorded a few transactions, set up budgets for your expense categories. MoneyBee will track your spending against these budgets in real-time and alert you when you're approaching your limits.
                   </p>
                   <p>
                     Start with realistic numbers based on your past spending, then adjust as you learn more about your financial habits.
@@ -161,7 +161,7 @@ export default function GettingStartedBlogPost() {
                 <section className="space-y-4">
                   <h2 className="text-2xl font-semibold text-primary border-b pb-2">Step 5: Review Your Insights</h2>
                   <p>
-                    The real power of Moneybee comes from its visual insights. Check the graphs and charts to:
+                    The real power of MoneyBee comes from its visual insights. Check the graphs and charts to:
                   </p>
                   <ul className="list-disc list-inside space-y-2 pl-4">
                     <li>See where your money is going</li>
@@ -177,7 +177,7 @@ export default function GettingStartedBlogPost() {
                     <li><strong>Be Consistent:</strong> Record transactions daily or weekly for best results</li>
                     <li><strong>Use Notes:</strong> Add context to your transactions so you remember why you spent the money</li>
                     <li><strong>Review Regularly:</strong> Spend 10 minutes each week reviewing your spending patterns</li>
-                    <li><strong>Backup Your Data:</strong> Use Moneybee's export feature to create local backups</li>
+                    <li><strong>Backup Your Data:</strong> Use MoneyBee's export feature to create local backups</li>
                     <li><strong>Start Simple:</strong> Don't try to track everything at once - begin with your major expenses and expand gradually</li>
                   </ul>
                 </section>
@@ -185,7 +185,7 @@ export default function GettingStartedBlogPost() {
                 <section className="space-y-4">
                   <h2 className="text-2xl font-semibold text-primary border-b pb-2">Ready to Take Control?</h2>
                   <p>
-                    Your financial journey starts with a single transaction. Download Moneybee today and experience how easy expense tracking can be when it's designed around the way you actually think about money.
+                    Your financial journey starts with a single transaction. Download MoneyBee today and experience how easy expense tracking can be when it's designed around the way you actually think about money.
                   </p>
                   <p>
                     Remember: the goal isn't perfection, it's awareness. Every transaction you record is a step toward better financial health and peace of mind.

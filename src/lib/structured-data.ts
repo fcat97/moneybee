@@ -10,7 +10,7 @@ export function generateSiteSchema() {
         url: 'https://yellowbytes.dev', logo: { '@type': 'ImageObject', url: absoluteUrl('/icon.png') },
       },
       {
-        '@type': 'WebSite', '@id': `${home}#website`, name: 'Moneybee', url: home,
+        '@type': 'WebSite', '@id': `${home}#website`, name: 'MoneyBee', url: home,
         description: SITE_DESCRIPTION, inLanguage: 'en', publisher: { '@id': `${home}#publisher` },
       },
     ],
@@ -24,11 +24,11 @@ export function generateAppSchema() {
     '@graph': [
       {
         '@type': 'WebPage', '@id': `${home}#webpage`, url: home,
-        name: 'Moneybee — Your money, organized for real life.', description: SITE_DESCRIPTION,
+        name: 'MoneyBee — Your money, organized for real life.', description: SITE_DESCRIPTION,
         isPartOf: { '@id': `${home}#website` }, mainEntity: { '@id': `${home}#app` }, inLanguage: 'en',
       },
       {
-        '@type': 'MobileApplication', '@id': `${home}#app`, name: 'Moneybee',
+        '@type': 'MobileApplication', '@id': `${home}#app`, name: 'MoneyBee',
         applicationCategory: 'FinanceApplication', operatingSystem: 'Android',
         description: SITE_DESCRIPTION, url: home, downloadUrl: GOOGLE_PLAY_URL,
         image: absoluteUrl('/icon.png'), publisher: { '@id': `${home}#publisher` },
@@ -89,7 +89,7 @@ export function generateArticleSchema(
     datePublished: new Date(datePublished).toISOString(),
     author: {
       '@type': 'Organization',
-      name: 'Moneybee Team',
+      name: 'MoneyBee Team',
       url: baseUrl,
     },
     publisher: {

@@ -1,4 +1,4 @@
-# Moneybee feature inventory
+# MoneyBee feature inventory
 
 Prepared 6 October 2026 from the website revamp brief, reviewed against Android source version 3.4.01. Each feature has two descriptive lines for the website. The inventory covers feature families rather than every individual editing action.
 
@@ -45,7 +45,7 @@ These online capabilities depend on eligible access, usage allowances, and servi
 | --- | --- | --- | --- |
 | Cloud sync | Personal records synchronized across Android devices. | Sync status reflects available online access. | §4.16; conditional |
 | Voice & image entry | Recognition from voice notes and selected images. | Extracted transaction details remain editable. | §4.2, §4.13; conditional |
-| Moneybee assistant | Record lookups and summaries through chat. | Supported records and plans can be created or edited. | §4.13; conditional |
+| MoneyBee assistant | Record lookups and summaries through chat. | Supported records and plans can be created or edited. | §4.13; conditional |
 | Automatic tagging | AI category tags for eligible transactions. | Availability follows configuration and allowances. | §4.12; conditional |
 | Shared costs & settlements | Group expenses with equal or custom shares. | Recorded settlements explain who owes whom. | §4.14A; conditional |
 | Shared funds | Contributions and expenses in a group fund. | Balances and activity connect members’ records. | §4.14B; conditional |
