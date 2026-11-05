@@ -9,3 +9,7 @@ MoneyBee was previously named Cartera. The existing Android package ID (`media.u
 Run the local preview with npm run dev (port 9002). Verify with npm run typecheck, npm test, and npm run build. The production export is written to out/.
 
 See [the revamp handoff](docs/website-revamp-handoff.md) for screenshot provenance, verification, and facts to confirm before publication. Desktop and mobile previews are in docs/previews/.
+
+See [the SEO checklist](docs/seo-checklist.md) for verification coverage, Search Console setup, HTTPS hosting settings, and the backlink plan. Run `npm run images:optimize` after changing source images, then build and run `npm run seo:check` to validate the exported pages.
+
+See [the performance checklist](docs/performance-checklist.md) for measured results, applicable optimizations, and hosting requirements. Run `npm run perf:check` after building to enforce the JavaScript budget.

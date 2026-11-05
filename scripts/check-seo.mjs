@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 // Check the actual static artifact; no browser, credentials, or extra dependency required.
@@ -28,6 +28,7 @@ const titles = new Set();
 const descriptions = new Set();
 const pagePaths = new Set(urls.map(url => url.pathname));
 for (const url of urls) {
+  assert.equal(url.protocol, 'https:', 'Canonical URLs must use HTTPS');
   assert.equal(url.origin, origin, 'All sitemap pages must use the canonical domain');
   const file = url.pathname === '/' ? 'index.html' : `${url.pathname.slice(1)}.html`;
   assert.ok(existsSync(resolve(output, file)), `Sitemap points to a missing page: ${url.href}`);
@@ -53,6 +54,20 @@ for (const url of urls) {
   localAsset(value('twitter:image'));
   assert.ok(!meta.some(tag => tag.name === 'robots' && /noindex|nofollow/.test(tag.content)), `${file} blocks indexing`);
   assert.equal([...html.matchAll(/<h1\b/g)].length, 1, `${file} needs one primary heading in its HTML`);
+  let previousLevel = 0;
+  for (const [, level] of html.matchAll(/<h([1-6])\b/g)) {
+    assert.ok(Number(level) <= previousLevel + 1, `${file} skips a heading level: h${previousLevel} to h${level}`);
+    previousLevel = Number(level);
+  }
+  for (const [tag] of html.matchAll(/<img\b[^>]*>/g)) {
+    const img = attributes(tag);
+    assert.ok(Object.hasOwn(img, 'alt'), `${file} contains an image without alt text (decorative images need alt="")`);
+    assert.ok((img.width && img.height) || /position:absolute/.test(img.style ?? ''), `${file} image must reserve layout space: ${img.src}`);
+    localAsset(new URL(img.src, origin).href);
+    for (const candidate of (img.srcSet ?? img.srcset ?? '').split(',').filter(Boolean)) {
+      localAsset(new URL(candidate.trim().split(/\s+/)[0], origin).href);
+    }
+  }
 
   const schemas = [...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].flatMap(match => {
     const schema = JSON.parse(match[1]);
@@ -94,8 +109,8 @@ for (const url of urls) {
   }
 
   for (const [, rawHref] of html.matchAll(/<a\b[^>]*href="([^"]+)"/g)) {
-    if ((!rawHref.startsWith('/') && !rawHref.startsWith('#')) || rawHref.startsWith('//')) continue;
-    const href = new URL(rawHref, url);
+    const href = new URL(rawHref.replaceAll('&amp;', '&'), url);
+    if (href.origin !== origin) continue;
     assert.ok(pagePaths.has(href.pathname) || existsSync(resolve(output, `.${href.pathname}`)), `${file} links to a missing route: ${rawHref}`);
     if (href.hash) {
       const targetFile = href.pathname === '/' ? 'index.html' : `${href.pathname.slice(1)}.html`;
@@ -104,6 +119,11 @@ for (const url of urls) {
     }
   }
   console.log(`PASS ${url.pathname}: metadata, canonicals, images, headings, structured data, internal links`);
+}
+for (const entry of readdirSync(output, { recursive: true })) {
+  if (!entry.endsWith('.html') || /(^|\/)404(?:\/index)?\.html$/.test(entry)) continue;
+  const path = entry === 'index.html' ? '/' : `/${entry.replace(/\.html$/, '').replace(/\/index$/, '')}`;
+  assert.ok(pagePaths.has(path), `Exported page is missing from the sitemap: ${path}`);
 }
 const notFound = readFileSync(resolve(output, '404.html'), 'utf8');
 assert.ok(/name="robots" content="[^"]*noindex/.test(notFound), 'The 404 page must remain unindexed');

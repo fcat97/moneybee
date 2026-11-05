@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { BlogImage } from '@/components/blog-image';
+import { Card, CardContent, CardHeader, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Calendar, ArrowRight, Clock } from 'lucide-react';
 import { BlogPost } from '@/lib/types';
@@ -17,10 +17,11 @@ export function BlogCard({ post }: BlogCardProps) {
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-shadow">
       <div className="relative h-48 w-full">
-        <Image
+        <BlogImage
           src={post.featuredImage}
-          alt={`${post.title} - Featured image for blog post about ${post.excerpt.substring(0, 100)}`}
+          alt={post.title}
           fill
+          sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1023px) calc((100vw - 72px) / 2), 384px"
           className="object-cover"
         />
       </div>
@@ -39,11 +40,11 @@ export function BlogCard({ post }: BlogCardProps) {
             </div>
           )}
         </div>
-        <CardTitle className="text-xl hover:text-primary transition-colors">
+        <h2 className="text-xl font-semibold leading-tight hover:text-primary transition-colors">
           <Link href={`/blogs/${post.slug}`}>
             {post.title}
           </Link>
-        </CardTitle>
+        </h2>
       </CardHeader>
       <CardContent>
         <CardDescription className="mb-4 line-clamp-3">

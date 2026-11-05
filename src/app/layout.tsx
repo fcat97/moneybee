@@ -3,7 +3,6 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { Toaster } from '@/components/ui/toaster';
 import { RedirectHandler } from '@/components/redirect-handler';
 import { Suspense } from 'react';
 import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION } from '@/lib/site';
@@ -20,6 +19,7 @@ export const metadata: Metadata = {
   creator: 'yellowbytes.dev',
   metadataBase: new URL(SITE_URL),
   applicationName: 'MoneyBee',
+  verification: { google: process.env.GOOGLE_SITE_VERIFICATION || undefined },
   icons: { icon: [{ url: '/icon.png', type: 'image/png', sizes: '512x512' }], apple: '/icon.png' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 };
@@ -45,7 +45,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Toaster />
       </body>
     </html>
   );

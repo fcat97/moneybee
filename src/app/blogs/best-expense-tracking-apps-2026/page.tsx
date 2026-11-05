@@ -2,7 +2,8 @@ import { createPageMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/json-ld';
 import { getBlogPost } from '@/lib/blog-data-enhanced';
 import { generateArticleSchema, generateBreadcrumbSchema } from '@/lib/structured-data';
-import Image from 'next/image';
+import { BlogImage } from '@/components/blog-image';
+import { RelatedGuides } from '@/components/related-guides';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -72,10 +73,11 @@ export default function BestExpenseTrackingApps2026() {
                 {blogTitle}
               </h1>
               <div className="relative h-64 md:h-96 w-full rounded-lg overflow-hidden mb-8">
-                <Image
+                <BlogImage
                   src={featuredImage}
                   alt={`${blogTitle} - Comprehensive comparison of top expense tracking apps`}
                   fill
+                  sizes="(max-width: 943px) calc(100vw - 48px), 896px"
                   className="object-cover"
                   priority
                 />
@@ -516,10 +518,10 @@ export default function BestExpenseTrackingApps2026() {
                     
                     <div className="space-y-4">
                       <div className="bg-blue-50 dark:bg-blue-950/30 p-4 rounded-lg border border-blue-200 dark:border-blue-800">
-                        <h4 className="font-semibold flex items-center gap-2 mb-2">
+                        <h3 className="font-semibold flex items-center gap-2 mb-2">
                           <CheckCircle2 className="h-5 w-5 text-blue-600" />
                           Choose Money Manager (Realbyte) if you:
-                        </h4>
+                        </h3>
                         <ul className="list-disc list-inside space-y-1 pl-6">
                           <li>Need professional-grade accounting accuracy</li>
                           <li>Want access from both mobile and desktop</li>
@@ -529,10 +531,10 @@ export default function BestExpenseTrackingApps2026() {
                       </div>
 
                       <div className="bg-green-50 dark:bg-green-950/30 p-4 rounded-lg border border-green-200 dark:border-green-800">
-                        <h4 className="font-semibold flex items-center gap-2 mb-2">
+                        <h3 className="font-semibold flex items-center gap-2 mb-2">
                           <CheckCircle2 className="h-5 w-5 text-green-600" />
                           Choose Money Manager (KTW) if you:
-                        </h4>
+                        </h3>
                         <ul className="list-disc list-inside space-y-1 pl-6">
                           <li>Love calendar-based visualization</li>
                           <li>Need to attach photos of receipts</li>
@@ -542,10 +544,10 @@ export default function BestExpenseTrackingApps2026() {
                       </div>
 
                       <div className="bg-purple-50 dark:bg-purple-950/30 p-4 rounded-lg border border-purple-200 dark:border-purple-800">
-                        <h4 className="font-semibold flex items-center gap-2 mb-2">
+                        <h3 className="font-semibold flex items-center gap-2 mb-2">
                           <CheckCircle2 className="h-5 w-5 text-purple-600" />
                           Choose Cashew if you:
-                        </h4>
+                        </h3>
                         <ul className="list-disc list-inside space-y-1 pl-6">
                           <li>Value beautiful, modern design</li>
                           <li>Want flexible budget customization</li>
@@ -555,10 +557,10 @@ export default function BestExpenseTrackingApps2026() {
                       </div>
 
                       <div className="bg-orange-50 dark:bg-orange-950/30 p-4 rounded-lg border border-orange-200 dark:border-orange-800">
-                        <h4 className="font-semibold flex items-center gap-2 mb-2">
+                        <h3 className="font-semibold flex items-center gap-2 mb-2">
                           <CheckCircle2 className="h-5 w-5 text-orange-600" />
                           Choose Budge if you:
-                        </h4>
+                        </h3>
                         <ul className="list-disc list-inside space-y-1 pl-6">
                           <li>Want AI-powered insights and recommendations</li>
                           <li>Need to track and manage subscriptions</li>
@@ -568,10 +570,10 @@ export default function BestExpenseTrackingApps2026() {
                       </div>
 
                       <div className="bg-primary/10 p-4 rounded-lg border-2 border-primary">
-                        <h4 className="font-semibold flex items-center gap-2 mb-2">
+                        <h3 className="font-semibold flex items-center gap-2 mb-2">
                           <CheckCircle2 className="h-5 w-5 text-primary" />
                           Choose MoneyBee if you:
-                        </h4>
+                        </h3>
                         <ul className="list-disc list-inside space-y-1 pl-6">
                           <li>Want accounting accuracy without complexity</li>
                           <li>Love the intuitive feel of notepad-style organization</li>
@@ -588,42 +590,42 @@ export default function BestExpenseTrackingApps2026() {
                     
                     <div className="space-y-4">
                       <div>
-                        <h4 className="font-semibold mb-2">Which expense tracking app is the most accurate?</h4>
+                        <h3 className="font-semibold mb-2">Which expense tracking app is the most accurate?</h3>
                         <p>
                           Apps using double-entry bookkeeping (Money Manager by Realbyte and MoneyBee) provide the highest accounting accuracy. This method ensures your books always balance and catches errors automatically.
                         </p>
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2">Are free expense tracking apps safe to use?</h4>
+                        <h3 className="font-semibold mb-2">Are free expense tracking apps safe to use?</h3>
                         <p>
                           Most reputable free apps are safe, but always check the privacy policy. Apps that store data locally (like MoneyBee and Cashew) offer maximum privacy. Cloud-based apps should use encryption and secure servers.
                         </p>
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2">What's the difference between single-entry and double-entry bookkeeping?</h4>
+                        <h3 className="font-semibold mb-2">What's the difference between single-entry and double-entry bookkeeping?</h3>
                         <p>
                           Single-entry just records income and expenses (like a checkbook). Double-entry tracks both sides of every transaction (source and destination), providing better accuracy and financial insight. It's the standard used by businesses worldwide.
                         </p>
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2">Can I switch between expense tracking apps easily?</h4>
+                        <h3 className="font-semibold mb-2">Can I switch between expense tracking apps easily?</h3>
                         <p>
                           Most apps allow data export (usually CSV format), but importing into a new app varies. Before committing long-term, test the export feature to ensure you're not locked in.
                         </p>
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2">Should I choose a free or paid expense tracker?</h4>
+                        <h3 className="font-semibold mb-2">Should I choose a free or paid expense tracker?</h3>
                         <p>
                           Start with free versions to find what works for you. Upgrade to paid if you need specific features like unlimited accounts, advanced reports, or cloud sync. Many free apps provide sufficient features for basic expense tracking.
                         </p>
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2">Which app is best for tracking business expenses?</h4>
+                        <h3 className="font-semibold mb-2">Which app is best for tracking business expenses?</h3>
                         <p>
                           For business use, choose apps with double-entry bookkeeping (Money Manager Realbyte or MoneyBee), photo receipt storage (Money Manager KTW), and detailed reporting. Consider creating separate accounts/pages for personal vs. business expenses.
                         </p>
@@ -663,7 +665,8 @@ export default function BestExpenseTrackingApps2026() {
                 </div>
               </CardContent>
             </Card>
-          </article>
+            <RelatedGuides currentSlug="best-expense-tracking-apps-2026" />
+        </article>
         </div>
       </div>
     </>

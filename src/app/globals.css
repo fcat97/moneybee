@@ -535,9 +535,12 @@
 }
 @media (max-width: 374px) {
   .site-shell { width: calc(100% - 32px); }
-  .header-download { padding-inline: 8px; font-size: 10px; }
-  .brand span { font-size: 25px; }
-  .brand img { width: 29px; height: 29px; }
+  .header-inner { gap: 6px; }
+  .header-actions { gap: 6px; }
+  .header-download { padding-inline: 6px; font-size: 9px; gap: 4px; }
+  .site-header .brand { gap: 5px; }
+  .site-header .brand span { font-size: 20px; }
+  .site-header .brand img { width: 24px; height: 24px; }
   .hero h1 { font-size: 38px; }
   .hero-actions { gap: 8px; }
   .hero-actions .play-store-link { font-size: 12px; padding-inline: 12px; }

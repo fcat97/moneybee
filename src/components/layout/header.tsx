@@ -29,7 +29,7 @@ export function Header() {
     <header className="site-header">
       <div className="site-shell header-inner">
         <Link href="/" className="brand" aria-label="MoneyBee home" onClick={closeMenu}>
-          <Image src="/icon.png" alt="" width={44} height={44} priority />
+          <Image src="/icon-96.webp" alt="" width={44} height={44} priority />
           <span>MoneyBee</span>
         </Link>
         <nav className="desktop-navigation" aria-label="Main navigation">

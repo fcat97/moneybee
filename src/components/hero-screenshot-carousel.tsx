@@ -1,9 +1,9 @@
 'use client';
 
-import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { ArrowDown, BookOpen, BriefcaseBusiness, ChevronLeft, ChevronRight, House, Pause, Plane, Play } from 'lucide-react';
+import { Skeleton } from '@/components/ui/skeleton';
 
 const screenshots = [
   { file: 'books-and-pages-light', title: 'Books & pages · Light', alt: 'MoneyBee in light appearance, with account balances and notebook pages for monthly expenses and a trip.' },
@@ -19,6 +19,7 @@ export function HeroScreenshotCarousel() {
   const [viewportRef, carousel] = useEmblaCarousel({ loop: true });
   const figureRef = useRef<HTMLElement>(null);
   const [selected, setSelected] = useState(0);
+  const [loadedSlides, setLoadedSlides] = useState(() => new Set([0]));
   const [paused, setPaused] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(true);
   const [visible, setVisible] = useState(false);
@@ -47,10 +48,18 @@ export function HeroScreenshotCarousel() {
   useEffect(() => {
     if (!carousel) return;
     const updateSelection = () => setSelected(carousel.selectedScrollSnap());
+    const slides = carousel.slideNodes();
+    const imageObserver = new IntersectionObserver(entries => {
+      const indices = entries.filter(entry => entry.isIntersecting && entry.intersectionRatio >= 0.05)
+        .map(entry => slides.indexOf(entry.target as HTMLElement));
+      setLoadedSlides(previous => indices.every(index => previous.has(index))
+        ? previous : new Set([...previous, ...indices]));
+    }, { root: carousel.rootNode(), threshold: 0.05 });
+    slides.forEach(slide => imageObserver.observe(slide));
     const stopOnDrag = () => setPaused(true);
     updateSelection();
     carousel.on('select', updateSelection).on('reInit', updateSelection).on('pointerDown', stopOnDrag);
-    return () => { carousel.off('select', updateSelection).off('reInit', updateSelection).off('pointerDown', stopOnDrag); };
+    return () => { imageObserver.disconnect(); carousel.off('select', updateSelection).off('reInit', updateSelection).off('pointerDown', stopOnDrag); };
   }, [carousel]);
 
   useEffect(() => {
@@ -61,7 +70,9 @@ export function HeroScreenshotCarousel() {
 
   function showScreenshot(index: number) {
     setPaused(true);
-    carousel?.scrollTo((index + screenshots.length) % screenshots.length, reducedMotion);
+    const next = (index + screenshots.length) % screenshots.length;
+    setLoadedSlides(previous => previous.has(next) ? previous : new Set([...previous, next]));
+    carousel?.scrollTo(next, reducedMotion);
   }
 
   return (
@@ -81,8 +92,10 @@ export function HeroScreenshotCarousel() {
             <div className="hero-carousel-track">
               {screenshots.map((screenshot, index) => (
                 <div className="hero-carousel-slide" key={screenshot.file} role="group" aria-roledescription="slide" aria-label={`${index + 1} of ${screenshots.length}`} aria-hidden={index !== selected}>
-                  <Image src={`/screenshots/${screenshot.file}.webp`} alt={screenshot.alt} width={720} height={1560}
-                    sizes="(max-width: 600px) 236px, (max-width: 1000px) 250px, 276px" priority={index === 0} />
+                  {loadedSlides.has(index) ? <img src={`/screenshots/${screenshot.file}.webp`}
+                    srcSet={`/screenshots/${screenshot.file}-320.webp 320w, /screenshots/${screenshot.file}-480.webp 480w, /screenshots/${screenshot.file}.webp 720w`} alt={screenshot.alt} width={720} height={1560}
+                    sizes="(max-width: 600px) 236px, (max-width: 1000px) 250px, 276px" loading="eager" fetchPriority={index === 0 ? 'high' : 'auto'} decoding="async" />
+                    : <Skeleton className="h-full w-full rounded-none" aria-hidden="true" />}
                 </div>
               ))}
             </div>

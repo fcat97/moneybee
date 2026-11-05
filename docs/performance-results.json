@@ -1,0 +1,104 @@
+{
+  "environment": "Local static export on Python http.server, without gzip or production cache headers. Single lab runs; not field measurements.",
+  "reports": {
+    "before-mobile": {
+      "lighthouseVersion": "13.6.0",
+      "fetchTime": "2026-11-05T09:13:10.045Z",
+      "url": "http://127.0.0.1:9010/",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "performanceScore": 78,
+      "metrics": {
+        "first-contentful-paint": {
+          "numericValue": 1847.3589000000002,
+          "displayValue": "1.8 s"
+        },
+        "largest-contentful-paint": {
+          "numericValue": 5593.378075,
+          "displayValue": "5.6 s"
+        },
+        "total-blocking-time": {
+          "numericValue": 38,
+          "displayValue": "40 ms"
+        },
+        "cumulative-layout-shift": {
+          "numericValue": 0,
+          "displayValue": "0"
+        },
+        "speed-index": {
+          "numericValue": 1901.479311192545,
+          "displayValue": "1.9 s"
+        }
+      },
+      "transferredBytes": 1114198,
+      "screenshotRequests": 7,
+      "screenshotTransferredBytes": 268927
+    },
+    "after-mobile": {
+      "lighthouseVersion": "13.6.0",
+      "fetchTime": "2026-11-05T09:20:15.062Z",
+      "url": "http://127.0.0.1:9010/",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "performanceScore": 78,
+      "metrics": {
+        "first-contentful-paint": {
+          "numericValue": 1844.1404000000002,
+          "displayValue": "1.8 s"
+        },
+        "largest-contentful-paint": {
+          "numericValue": 5526.995700000001,
+          "displayValue": "5.5 s"
+        },
+        "total-blocking-time": {
+          "numericValue": 56,
+          "displayValue": "60 ms"
+        },
+        "cumulative-layout-shift": {
+          "numericValue": 0,
+          "displayValue": "0"
+        },
+        "speed-index": {
+          "numericValue": 1844.1404000000002,
+          "displayValue": "1.8 s"
+        }
+      },
+      "transferredBytes": 835255,
+      "screenshotRequests": 2,
+      "screenshotTransferredBytes": 80612
+    },
+    "after-desktop": {
+      "lighthouseVersion": "13.6.0",
+      "fetchTime": "2026-11-05T09:22:36.179Z",
+      "url": "http://127.0.0.1:9010/",
+      "formFactor": "desktop",
+      "throttlingMethod": "simulate",
+      "performanceScore": 98,
+      "metrics": {
+        "first-contentful-paint": {
+          "numericValue": 416.7191,
+          "displayValue": "0.4 s"
+        },
+        "largest-contentful-paint": {
+          "numericValue": 1087.508425,
+          "displayValue": "1.1 s"
+        },
+        "total-blocking-time": {
+          "numericValue": 2,
+          "displayValue": "0 ms"
+        },
+        "cumulative-layout-shift": {
+          "numericValue": 0,
+          "displayValue": "0"
+        },
+        "speed-index": {
+          "numericValue": 477.73584462922855,
+          "displayValue": "0.5 s"
+        }
+      },
+      "transferredBytes": 871939,
+      "screenshotRequests": 2,
+      "screenshotTransferredBytes": 48998
+    }
+  }
+}

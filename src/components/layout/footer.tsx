@@ -10,7 +10,7 @@ export function Footer() {
         <div className="footer-top">
           <div>
             <Link href="/" className="brand" aria-label="MoneyBee home">
-              <Image src="/icon.png" alt="" width={38} height={38} />
+              <Image src="/icon-96.webp" alt="" width={38} height={38} />
               <span>MoneyBee</span>
             </Link>
             <p>A little structure for everyday money.</p>

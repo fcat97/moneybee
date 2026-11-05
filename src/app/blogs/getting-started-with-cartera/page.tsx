@@ -1,6 +1,7 @@
 import { createPageMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/json-ld';
-import Image from 'next/image';
+import { BlogImage } from '@/components/blog-image';
+import { RelatedGuides } from '@/components/related-guides';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -77,10 +78,11 @@ export default function GettingStartedBlogPost() {
                 {blogPost.title}
               </h1>
               <div className="relative h-64 md:h-96 w-full rounded-lg overflow-hidden mb-8">
-                <Image
+                <BlogImage
                   src={blogPost.featuredImage}
                   alt={`${blogPost.title} - Comprehensive guide to getting started with MoneyBee expense tracking app`}
                   fill
+                  sizes="(max-width: 943px) calc(100vw - 48px), 896px"
                   className="object-cover"
                   priority
                 />
@@ -194,6 +196,7 @@ export default function GettingStartedBlogPost() {
               </div>
             </CardContent>
           </Card>
+          <RelatedGuides currentSlug="getting-started-with-cartera" />
         </article>
       </div>
     </div>
