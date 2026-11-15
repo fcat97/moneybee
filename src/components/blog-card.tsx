@@ -52,7 +52,7 @@ export function BlogCard({ post }: BlogCardProps) {
         </CardDescription>
         <Button variant="ghost" asChild className="group">
           <Link href={`/blogs/${post.slug}`}>
-            Read More
+            Read the guide: {post.title}
             <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </Button>

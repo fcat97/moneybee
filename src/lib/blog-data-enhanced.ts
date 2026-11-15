@@ -7,7 +7,7 @@ const articleDetails: Record<string, { keywords: string[]; readingTime: number; 
     readingTime: 8,
   },
   'budget-planning-tips': {
-    seoTitle: '5 Essential Budget Planning Tips for 2026',
+    seoTitle: '5 Practical Budget Planning Tips',
     keywords: ['budget planning', 'financial tips', 'money saving strategies', '50/30/20 rule', 'zero-based budgeting'],
     readingTime: 10,
   },

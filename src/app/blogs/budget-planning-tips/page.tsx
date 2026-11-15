@@ -91,7 +91,7 @@ export default function BudgetPlanningTipsBlogPost() {
               <CardContent className="prose dark:prose-invert max-w-none text-foreground/80 text-base leading-relaxed px-6 sm:px-8 md:px-10 py-8">
               <div className="space-y-6">
                 <p className="text-lg">
-                  Creating a budget is one thing—sticking to it is another. These five essential tips will help you build a budget that works for your lifestyle and actually helps you achieve your financial goals in 2026.
+                  Creating a budget is one thing; keeping it useful as life changes is another. These five practical approaches can help you organize spending, plan for goals, and review your budget over time.
                 </p>
 
                 <section className="space-y-4">
