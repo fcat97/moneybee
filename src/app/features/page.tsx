@@ -54,11 +54,13 @@ export default function FeaturesPage() {
         <nav aria-label="Breadcrumb" className="features-breadcrumb">
           <Link href="/">Home</Link><span aria-hidden="true">/</span><span aria-current="page">Features</span>
         </nav>
-        <h1>MoneyBee features</h1>
-        <p>Books and accounts, budgets and savings, and shared finances. A closer look at the features that bring everyday money together.</p>
-        <nav aria-label="Feature categories" className="feature-category-links">
-          {inventory.map((group, index) => <a href={`#${groupIds[index]}`} key={group.title}>{group.title}</a>)}
-        </nav>
+        <div className="features-intro-surface">
+          <h1>MoneyBee features</h1>
+          <p>Books and accounts, budgets and savings, and shared finances. A closer look at the features that bring everyday money together.</p>
+          <nav aria-label="Feature categories" className="feature-category-links">
+            {inventory.map((group, index) => <a href={`#${groupIds[index]}`} key={group.title}>{group.title}</a>)}
+          </nav>
+        </div>
       </header>
       <div className="feature-detail-groups">
         {inventory.map((group, index) => (

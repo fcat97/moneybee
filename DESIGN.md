@@ -1,37 +1,37 @@
 ---
 name: MoneyBee
-description: A clean financial notebook for everyday money.
+description: A Material 3 financial notebook for everyday money.
 colors:
   paper: '#ffffff'
   ink: '#173c2d'
   green: '#285b43'
-  quiet: '#4e635b'
-  line: '#dce6e0'
-  mint: '#f0fcf8'
-  section-soft: '#f6f5f3'
-  lilac: '#e5f3ec'
-  green-hover: '#12382c'
-  focus: '#7856a3'
-  field-border: '#bdc8b9'
+  quiet: '#40564a'
+  line: '#c9d8ce'
+  mint: '#f4f8f5'
+  section-soft: '#f3f5f2'
+  lilac: '#cbe9d5'
+  green-hover: '#1f4f39'
+  focus: '#285b43'
+  field-border: '#71877a'
   field-error: '#a42726'
   field-error-bg: '#fff8f5'
-  card-border: '#dcebe3'
-  sample-bg: '#f6faf7'
+  card-border: '#c9d8ce'
+  sample-bg: '#f4f8f5'
   inverse-green: '#244c3b'
   inverse-hover: '#e0e8c7'
 typography:
   display:
     fontFamily: Plus Jakarta Sans, sans-serif
-    fontSize: clamp(46px, 5.1vw, 72px)
+    fontSize: clamp(44px, 5vw, 68px)
     fontWeight: 700
     lineHeight: 1.12
-    letterSpacing: -.035em
+    letterSpacing: -.03em
   headline:
     fontFamily: Plus Jakarta Sans, sans-serif
     fontSize: clamp(32px, 3.5vw, 48px)
     fontWeight: 700
     lineHeight: 1.2
-    letterSpacing: -.035em
+    letterSpacing: -.03em
   title:
     fontFamily: Plus Jakarta Sans, sans-serif
     fontSize: 24px
@@ -62,12 +62,12 @@ typography:
     fontSize: 14px
     fontWeight: 400
 rounded:
-  button: 9px
-  field: 7px
-  card: 12px
-  panel: 8px
-  shared-card: 14px
-  chip: 5px
+  button: 20px
+  field: 12px
+  card: 20px
+  panel: 16px
+  shared-card: 20px
+  chip: 22px
   carousel-control: 50%
 spacing:
   '8': 8px
@@ -85,28 +85,28 @@ components:
     textColor: '{colors.paper}'
     typography: '{typography.button}'
     rounded: '{rounded.button}'
-    padding: 17px 21px
-    height: 54px
+    padding: 16px 24px
+    height: 56px
   button-primary-hover:
     backgroundColor: '{colors.green-hover}'
   button-compact:
     backgroundColor: '{colors.green}'
     textColor: '{colors.paper}'
     rounded: '{rounded.button}'
-    padding: 12px 16px
-    height: 46px
+    padding: 12px 20px
+    height: 48px
   button-inverse:
     backgroundColor: '{colors.paper}'
     textColor: '{colors.inverse-green}'
     typography: '{typography.button}'
     rounded: '{rounded.button}'
-    padding: 17px 21px
-    height: 54px
+    padding: 16px 24px
+    height: 56px
   button-inverse-hover:
     backgroundColor: '{colors.inverse-hover}'
   text-link:
     textColor: '{colors.green}'
-    height: 44px
+    height: 48px
   input:
     backgroundColor: '{colors.paper}'
     textColor: '{colors.ink}'
@@ -119,7 +119,7 @@ components:
   planning-card:
     backgroundColor: '{colors.paper}'
     rounded: '{rounded.card}'
-    padding: 30px 24px 24px
+    padding: 28px
   shared-card:
     backgroundColor: '{colors.green}'
     textColor: '{colors.paper}'
@@ -137,7 +137,7 @@ components:
     backgroundColor: '{colors.paper}'
     textColor: '{colors.green}'
     rounded: '{rounded.carousel-control}'
-    size: 44px
+    size: 48px
   navigation:
     backgroundColor: '{colors.mint}'
     typography: '{typography.navigation}'
@@ -147,41 +147,42 @@ components:
 
 ## Overview
 
-**Creative North Star: "The financial notebook"**
+**Creative North Star: "The financial notebook, composed with Material 3"**
 
-MoneyBee uses the financial notebook as its visual reference: clear text, pale section bands, softly rounded surfaces, and recognizable pages for different parts of life. The owner’s Monefy-inspired direction appears as pale mint, white, warm gray, and dark green with a readable sans-serif throughout.
+MoneyBee uses the financial notebook as its product metaphor and Material 3 as its interface grammar. A tonal green surface system, clear type hierarchy, confident rounded shapes, and deliberate elevation make the marketing experience feel familiar while preserving the owner’s Monefy-inspired palette of pale mint, white, soft gray, and dark green.
 
 The website presents an Android product through its actual app icon and owner-supplied app screenshots. Notebook and planning illustrations explain the recordkeeping mechanism; their sample records are identified as illustrative. Product descriptions use direct, declarative language, while download and support controls use clear action wording.
 
 **Key Characteristics:**
 
-- Pale mint, white, and warm-gray section bands with dark green accents.
+- Material 3 tonal surface roles mapped to pale mint, white, soft gray, and dark green.
+- Rounded controls and content surfaces with restrained, functional elevation.
 - Self-hosted Plus Jakarta Sans for both headings and reading text.
 - Actual app screenshots alongside softly layered notebook illustrations.
 - Comfortable spacing, visible focus, and motion that respects reduced-motion preferences.
 
 ## Colors
 
-The palette combines pale green and neutral section surfaces with dark green content and actions. The frontmatter records the current source values; it is normative. Color names follow the existing custom properties where available.
+The palette combines pale green and neutral section surfaces with dark green content and actions. CSS tokens include Material 3 roles (`surface-container-low`, `surface-container`, `surface-container-high`, `primary-container`, `on-surface`, `on-surface-variant`, and `outline`) while retaining legacy names for existing components. The frontmatter records the current source values; it is normative.
 
 ### Primary
 
-- **Green** (`green`): primary Google Play and contact actions, icon strokes, progress fills, shared-finance cards, and the final download surface.
+- **Green** (`green` / `primary-color`): primary Google Play and contact actions, icon strokes, progress fills, shared-finance accents, and the final download surface.
 - **Ink** (`ink`): headings, the brand name, field labels, and field content.
 - **Green hover** (`green-hover`): the darker primary-action hover state.
 - **Inverse green** (`inverse-green`): text on the white download action inside the green final section; `inverse-hover` is its pale hover surface.
 
 ### Neutral
 
-- **Paper** (`paper`): the page background, cards, fields, and white surfaces.
-- **Mint** (`mint`): the header, hero, planning, assistant, and contact section bands.
-- **Warm gray** (`section-soft`): notebook and shared-finance bands, plus the data panel.
-- **Soft green** (`lilac`): the existing legacy-named custom property resolves to pale green. Its name does not establish a purple visual direction.
+- **Paper** (`paper` / `surface`): the page background, cards, fields, and white surfaces.
+- **Surface containers**: low (`#f4f8f5`) carries section bands and list areas; container (`#eaf2ed`) and high (`#dfeae3`) distinguish nested content; primary container (`#cbe9d5`) identifies selected, emphasized, or interactive green surfaces.
+- **Warm gray** (`section-soft`): the neutral layer for notebook and shared-finance regions.
+- **Soft green** (`lilac`): a legacy alias for the primary container tint, not a purple visual direction.
 - **Quiet** (`quiet`): supporting copy, captions, notes, and secondary text.
 - **Line** (`line`), **card border** (`card-border`), and **field border** (`field-border`): subdued separators and control outlines.
 - **Sample background** (`sample-bg`): inset illustrative planning surfaces.
 
-The violet `focus` color is an accessibility state. `field-error` and `field-error-bg` identify invalid support fields. They do not introduce new marketing accents. Tailwind’s inherited HSL semantic variables remain in the source for the existing UI library; the custom-property palette above describes the finished landing page.
+The green `focus` color is an accessibility state. `field-error` and `field-error-bg` identify invalid support fields. Tailwind’s inherited HSL semantic variables remain in the source for the existing UI library.
 
 ## Typography
 
@@ -205,50 +206,46 @@ Small captions and sample-record labels belong to illustrations and secondary no
 
 ## Layout
 
-The standard centered shell is capped at 1200px with 40px side gutters. At widths of at least 1440px the cap becomes 1240px with a 140px total viewport inset. Up to 900px the shell uses 24px side gutters; up to 650px it uses 20px; below 374px it uses 16px. Non-home content has its own 24px desktop and 16px mobile gutters.
+The standard centered shell is capped at 1240px with 40px side gutters; at 1440px and above it uses a 140px total inset. Up to 900px the shell uses 24px side gutters; up to 650px it uses 20px. Homepage and feature content share the same shell.
 
-Full-width section bands wrap the constrained content. Desktop feature stories use two columns; planning, shared-finance, and data sections use three columns. The hero uses `1.1fr 1fr`; notebook uses `1.15fr 1fr`; FAQ and contact use `.9fr 1.2fr`. These relationships collapse to one column up to 650px. On mobile the notebook explanation precedes its illustration.
+Full-width tonal bands wrap the constrained content. The desktop hero uses `.92fr 1.08fr` with the real screenshot carousel inside a large tonal showcase; it stacks to one column below 650px. Desktop feature stories use two columns; planning and feature grids use three or four columns where the content supports them, then collapse through two columns to one on mobile. On mobile the notebook explanation precedes its illustration.
 
-The homepage feature overview is a compact icon and title index on white, with a minimum height of the viewport minus the sticky header. Its 28 pale cards use six columns on desktop, four up to 1100px, three up to 900px, and two up to 650px. Descriptions live on `/features`, reached through the “See details” link or a feature title. Individual titles link directly to their description anchors. The homepage Features anchor targets this compact index.
+The homepage feature overview is a compact icon and title index. Its 28 links read as low-emphasis feature rows rather than raised cards: four columns on desktop, three up to 900px, and two up to 650px. Descriptions live on `/features`, reached through “See details” or a feature title. Individual titles link directly to their description anchors.
 
 The dedicated features page groups all 28 description cards into everyday records, planning, personal settings, and online features. Four columns become three up to 1100px, two up to 900px, and one up to 650px. Category links, a breadcrumb, and a return-to-overview link support navigation. Header and footer Features links target this page.
 
-Recurring section padding is 100px vertically, decreasing to 75px up to 900px and 60px up to 650px. Local hero, contact, data, footer, and final-download spacing remains explicit. Grid gaps and component padding use the observed values recorded in frontmatter, with component-specific adaptations rather than an invented uniform scale.
-
-The sticky header is 90px tall on desktop, 78px up to 900px, and 73px on mobile. Desktop navigation gives way to a disclosure menu at 900px. Anchor scrolling leaves room for the header (100px desktop, 90px mobile).
+Section spacing remains generous and responsive, with local hero, contact, data, footer, and final-download spacing tuned to their content. The sticky header is 80px on desktop, 76px up to 900px, and 72px on mobile. Desktop navigation gives way to a disclosure menu at 900px. Anchor scrolling leaves room for the header.
 
 ## Elevation & Depth
 
-Most content uses tonal layering and fine borders. Planning cards and shared cards sit flat; the phone frame, overlapping notebook pages, and mobile navigation use diffuse shadows to communicate their physical or temporary layer. Slight page rotations belong to the notebook illustration rather than every content card.
+Most content uses tonal layering. A restrained two-level shadow scale distinguishes the phone frame and temporary navigation panel; important content cards use a single soft elevation with no stacked border-plus-shadow treatment. Slight page rotations belong to the notebook illustration rather than every content card.
 
 ### Shadow Vocabulary
 
-- **Phone frame:** `0 18px 25px -18px #15362966, 0 2px 3px #15362955`.
-- **Hero notebook:** `0 5px 8px #4951441a`.
-- **Notebook page:** `0 8px 18px #33443116`.
-- **Mobile navigation:** `0 12px 30px #16352824`.
+- **Elevation 1:** `0 1px 3px rgb(22 55 39 / 12%), 0 1px 2px rgb(22 55 39 / 8%)`.
+- **Elevation 2:** `0 4px 10px rgb(22 55 39 / 12%), 0 1px 3px rgb(22 55 39 / 8%)`.
 
 **The Quiet Depth Rule.** Use tonal surfaces and fine borders for ordinary content; reserve the observed diffuse shadows for the phone, notebook pages, and mobile navigation.
 
 ## Shapes
 
-Surfaces have gentle curves: fields and the notebook spine use 7px corners; inset sample panels use 8px; download actions use 9px; planning cards and illustrative pages use 12px; shared cards and assistant notes use 14px. The data surface uses 15px and final download panel 17px. Carousel controls are circles, with small round slide markers.
+The Material 3 shape scale uses 12px for fields and compact controls, 16px for nested surfaces, 20px for buttons and content cards, and 28–32px for large showcase regions. Carousel controls are circles, with small round slide markers.
 
-Feature title and description cards use a pale neutral (`#f8faf8`), a fine border, and 12px corners. Homepage cards contain a centered duotone icon and title with a 124px minimum height; hover and keyboard focus introduce pale mint (`#edf7f1`). Description cards have 24px padding and 15px reading text. Directly linked descriptions receive the same pale mint treatment through `:target`.
+Homepage feature links are compact horizontal rows with 32px duotone icons and a primary-container state layer on hover or focus. Feature descriptions sit on low tonal containers with 20px corners and 24px padding; directly linked descriptions use the primary-container color and elevation.
 
-Both feature surfaces share Phosphor duotone icons, with coordinated green, teal, blue, amber, and plum foregrounds over the pack’s original 20% opacity layer. Icons are 36px on desktop overview cards, 32px on mobile, and 40px on detail cards. Selected SVGs from the pinned `@phosphor-icons/core@2.1.1` CDN package are served locally under `public/icons/features/`, with source and MIT license notices alongside them. Lucide remains the icon system for the rest of the site.
+Both feature surfaces share Phosphor duotone icons, with coordinated green, teal, blue, amber, and plum foregrounds over the pack’s original 20% opacity layer. Overview icons are 32px on desktop and 27px on mobile; detail icons are 40px inside a 48px tonal container. Selected SVGs from the pinned `@phosphor-icons/core@2.1.1` CDN package are served locally under `public/icons/features/`, with source and MIT license notices alongside them. Lucide remains the icon system for the rest of the site.
 
-The phone has a distinct device silhouette (33px outer corners and 24px image/viewport corners on desktop), reducing at narrower widths. Notebook illustrations use overlapping pages, light borders, and restrained rotations. The hero underline has an irregular curved shape and stays attached to the highlighted phrase.
+The phone has a distinct device silhouette (30px outer corners and 22px image/viewport corners) inside a 32px tonal showcase. Notebook illustrations use overlapping pages, soft tonal surfaces, and restrained rotations.
 
 ## Components
 
 ### Buttons
 
-Download and support actions are compact, clear, and strongly contrasted. The primary variant uses green with white text, a matching 1px border, the `button` type role, and the padding and radius in frontmatter. Its recorded height is a minimum height. The compact header variant uses 14px text and a 46px minimum height. On mobile the header action uses a 42px minimum height; the hero action uses 51px.
+Download and support actions are clear and strongly contrasted. The primary variant uses green with white text, 20px corners, and a soft elevation. Its minimum height is 56px; the compact header variant is 48px high. Actions retain at least 44px touch targets.
 
-Hover darkens the primary background and moves the action up 2px over 200ms. The arrow moves 2px right and up on hover or keyboard focus. Active feedback returns to baseline with a .98 scale. The final green section uses the inverse white button variant. Underlined text links maintain a 44px minimum height and move their arrow 3px right on hover.
+Hover darkens the primary background, raises the action slightly, and deepens elevation. Active feedback returns to baseline. The final green section uses the inverse white button variant. Text links use a primary-container state layer rather than a persistent underline.
 
-All keyboard-focusable controls retain the global violet outline (3px, 5px offset, 3px radius). Reduced-motion styling removes action and icon transforms and shortens transitions to .01ms.
+All keyboard-focusable controls retain a green outline (2px, 3px offset). Reduced-motion styling removes action and icon transforms and shortens transitions to .01ms.
 
 ### Chips
 
@@ -256,7 +253,7 @@ Entry-option chips are descriptive labels, not filters. They use pale green (`#e
 
 ### Cards / Containers
 
-Planning cards use paper, a fine card border, no shadow, and an inset sample panel. Shared cards use green with white headings, pale green body text (`#e1eee7`), and a ruled examples row. Their descriptions and examples occupy separate blocks, with the example row aligned toward the bottom. Their source padding and radii are recorded in frontmatter.
+Planning cards use white surfaces with a single soft elevation and an inset sample panel. Shared-ledger surfaces use the established green and pale-green palette. Descriptions and illustrative examples remain distinct blocks.
 
 ### Inputs / Fields
 
@@ -264,19 +261,19 @@ Support fields are white with a field border, green ink, visible labels, and 46p
 
 ### Navigation
 
-The pale mint sticky header carries the actual app icon, strong MoneyBee wordmark, plain text links, compact download action, and mobile menu. Desktop links reveal a fine underline over 180ms on hover and keyboard focus. Mobile links sit in a white bordered, softly shadowed disclosure panel; hovering adds a pale green background. Escape closes the menu and restores focus to its trigger; outside interaction and link selection close it.
+The white sticky header carries the actual app icon, MoneyBee wordmark, desktop navigation links, compact download action, and mobile menu. Links use rounded 48px state surfaces. Mobile links sit in a white, softly elevated disclosure panel. Escape closes the menu and restores focus to its trigger; outside interaction and link selection close it.
 
 ### FAQ
 
-Native disclosure rows are separated by fine lines. A summary has a 69px desktop minimum height and 65px mobile minimum height, with a green plus/minus affordance. Answer text uses regular reading sizes and generous leading. Opening an answer uses a 220ms reveal only when reduced motion is not requested.
+Native disclosure rows are separated by fine lines. A summary has a 64px minimum height with a green plus/minus affordance. Answer text uses regular reading sizes and generous leading. Opening an answer uses a 220ms reveal only when reduced motion is not requested.
 
 ### Notebook illustrations and screenshot carousel
 
-Retain the real app screenshots inside the phone and the clearly labeled example notebook pages alongside product explanations. The carousel has previous/next, play/pause, count, slide-selection buttons, swipe, and arrow-key controls. Its round navigation buttons are 44px; slide-selection buttons are 24px by 32px with small round markers. The selected marker widens horizontally.
+Retain the real app screenshots inside the phone and the clearly labeled example notebook pages alongside product explanations. The carousel has previous/next, play/pause, count, slide-selection buttons, swipe, and arrow-key controls. Its round navigation buttons are 48px on desktop and 44px on mobile; slide-selection buttons are at least 32px high with small round markers. The selected marker widens horizontally.
 
 The carousel advances every 5000ms only while visible, unpaused, unfocused, unhovered, and the document is visible. Manual navigation or dragging pauses it. Reduced motion stops autoplay, disables the play control, and makes manual changes immediate. Captions announce manual changes politely; automatic changes are not announced.
 
-One-time illustration motion uses `cubic-bezier(0.16, 1, 0.3, 1)`: phone/notebook entry 700ms, page entry 620ms with 60ms staggering, progress fills 750ms, and the underline 650ms. Page hover motion lasts 300ms and requires a fine pointer, hover support, and no reduced-motion preference. Content is visible before JavaScript runs; hidden documents and preference changes cancel active illustration animations.
+One-time illustration motion uses `cubic-bezier(0.16, 1, 0.3, 1)`: phone/notebook entry 700ms, page entry 620ms with 60ms staggering, and progress fills 750ms. Page hover motion lasts 300ms and requires a fine pointer, hover support, and no reduced-motion preference. Content is visible before JavaScript runs; hidden documents and preference changes cancel active illustration animations.
 
 ## Do's and Don'ts
 
