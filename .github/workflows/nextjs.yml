@@ -77,7 +77,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
         env:
           NODE_ENV: production
-          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION || 'nSRI8EkVzZ8BMV3F_IjGqhDCFzjRYRZyNG_Uz7D_EzU' }}
       - name: Check exported SEO
         run: ${{ steps.detect-package-manager.outputs.manager }} run seo:check
       - name: Check performance budget
