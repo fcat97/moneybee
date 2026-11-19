@@ -4,7 +4,9 @@
     "target": {
       "namespace": "android_app",
       "package_name": "media.uqab.cartera",
-      "sha256_cert_fingerprints": ["9E:09:C3:0A:4C:20:9B:CB:2C:BF:EB:2F:8F:8B:2B:FA:D0:77:65:EF:75:B0:D3:43:60:C7:48:E5:72:3D:23:A4"]
+      "sha256_cert_fingerprints": [
+        "D3:68:14:D1:0D:5C:BB:9E:90:58:21:63:35:07:ED:65:FA:85:F8:4E:8A:8F:F1:C8:97:E8:95:67:DE:FF:36:64"
+      ]
     }
   }
 ]

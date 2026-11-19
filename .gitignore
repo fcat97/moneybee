@@ -40,6 +40,8 @@ next-env.d.ts
 
 .genkit/*
 .env*
+.agents/
+.codex/hooks.json
 
 # firebase
 firebase-debug.log
